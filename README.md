@@ -1,4 +1,4 @@
-# WEBP_Plantastic_Webseite
+Projektbeschrieb Webprogrammierung Gruppe Plantastic 
 
 Projektidee:
 
