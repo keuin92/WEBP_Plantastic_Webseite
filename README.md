@@ -19,5 +19,5 @@ Filterungen:
 
 Datenquellen:
 
-Hotellerie: https://www-bfs-admin-ch.ezproxy.fhgr.ch/bfs/de/home/statistiken/tourismus/beherbergung/hotellerie.html
-Parahotellerie: https://www-bfs-admin-ch.ezproxy.fhgr.ch/bfs/de/home/statistiken/tourismus/beherbergung/parahotellerie.html
+- Hotellerie: https://www-bfs-admin-ch.ezproxy.fhgr.ch/bfs/de/home/statistiken/tourismus/beherbergung/hotellerie.html
+- Parahotellerie: https://www-bfs-admin-ch.ezproxy.fhgr.ch/bfs/de/home/statistiken/tourismus/beherbergung/parahotellerie.html
