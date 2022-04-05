@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stoppuhr</title>
+</head>
+
+<body>
+
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <div id="time"></div>
+
+    <script>
+        let startButton = document.getElementById('start')
+        let stopButton = document.getElementById('stop')
+        let timeDiv = document.getElementById('time')
+
+        let startTime;
+        let running = false;
+
+        // Hilfsfunktion - liefert Millisekunden seit 1.1.1970 zurück
+        function getMilliseconds() {
+            return (new Date()).getTime();
+        }
+
+        startButton.addEventListener('click', function () {
+            startTime = getMilliseconds()
+            running = true
+
+            // TODO: Aktuelle Zeit in Variable startTime schreiben
+            // TODO Variable running auf true setzen
+
+            console.log(startTime)
+
+        });
+
+        // TODO - Uhr anhalten (Variable running auf false setzen)
+        // stopButton.addEventListener( ... )
+        stopButton.addEventListener('click', function () {
+            stopTime = getMilliseconds()
+            running = false
+
+            console.log(stopTime)
+
+        });
+
+        setInterval(function () {
+            if (running) {
+                // TODO
+                // 1. (aktuelle Zeit - Startzeit) ausrechnen
+                // 2. Differenz in timeDiv anzeigen (Tipp: textContent)
+                let timedifferenz = getMilliseconds() - startTime
+                timeDiv.textContent = timedifferenz
+                console.log(timedifferenz)
+
+            }
+        }, 50)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Überschrift </h1>
+    <p id="absatz">Lorem ipsum ...</p>
+     <ul id="liste-a">
+        <li>eins</li>
+        <li>zwei</li>
+    </ul>
+     <ul id="liste-b">
+        <li>drei</li>
+        <li>vier</li>
+        <li>fünf</li>
+    </ul>
+    <script>
+        /* Dynamische Erstellung von Tabellen beim Starten der Webseite */
+        let ul = document.createElement('ul')
+        ul.id = "Liste";
+
+        let li = document.createElement('li')
+        li.textContent = "A";
+        ul.append(li)
+
+        li = document.createElement('li')
+        li.textContent = "B";
+        ul.append(li)
+
+        li = document.createElement('li')
+        li.textContent = "C";
+        ul.append(li)
+
+        document.body.append(ul);
+    </script>
+</body>
+
+</html>

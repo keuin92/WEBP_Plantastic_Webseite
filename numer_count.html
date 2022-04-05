@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        /* Max Zahl aus input  */
+        let zahlen = [9, 13, 4, 5, 1, 9, 12];
+
+        maximum(zahlen)
+        minimum(zahlen)
+        summe(zahlen)
+        mittelwert(zahlen)
+
+        /* Funktionen */
+
+        function maximum(arr) {
+            let currentMax = arr[0];
+            for (let number of arr) {
+                if (number > currentMax) {
+                    currentMax = number;
+                }
+            }
+            console.log("Maximum " + currentMax);
+            return (currentMax);
+        }
+
+        function minimum(arr) {
+            let currentMin = arr[0];
+            for (let number of arr) {
+                if (number < currentMin) {
+                    currentMin = number;
+                }
+            }
+            console.log("Minimum " + currentMin);
+            return (currentMin);
+        }
+
+        function summe(arr) {
+            let currentSum = arr[0];
+            for (let number of arr) {
+                currentSum = currentSum + number; /* schnelle Variante +=  */
+            }
+            console.log("Summe " + currentSum);
+            return (currentSum);
+        }
+
+        function mittelwert(arr) {
+            let mittelwert = summe(arr) / arr.length;
+            console.log("Mittelwert " + mittelwert);
+            return summe(arr) / arr.length;
+        }
+
+        /*
+
+        //21,18,15,12,9,6,3,0
+        for (let i = 21; i >= 0; i = i - 3)
+            console.log(i);
+
+        //2,4,8,16,32,64
+        for (let i = 1; i < 65; i = i * 2)
+            console.log(i);
+
+        1,1,2,3,5,8,13,21,34,55
+        while (b <= 55) {
+            console.log(b);
+
+            let a_new = b;
+            let b_new = a + b;
+
+            a = a_new;
+            b = b_new;
+
+            console.log(a)
+            console.log(b)
+        } 
+
+        //Schlaufe für Array auslesen
+        let numbers = [3, 4, 6, 8, 11]
+        for (let i = 0; i < numbers.length; i++) {
+            console.log(numbers[i])
+        }
+        // neuere Variante zum Array auslesen
+        numbers.forEach(function (num, index) {
+            console.log(index + ' ->' + num);
+        }); 
+
+        let personen = [['Andi', 17], ['Barbara', 20], ['Claus', 33], ['Dora', 15], ['Emil', 26]];
+
+        for (let person of personen) {
+            if (person[1] >= 18) { console.log(person[0]) }
+        }
+            */
+
+    </script>
+</head>
+
+<body>
+    <hi>Überschrift</hi>
+</body>
+
+</html>

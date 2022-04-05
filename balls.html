@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="400" height="400" style="border: 1px solid black;"></canvas>
+
+    <script>
+        let canvas = document.getElementById("canvas");
+        let context = canvas.getContext("2d");
+
+        class Ball {
+            constructor() {
+                this.x = Math.random() * 400;
+                this.y = Math.random() * 400;
+
+                this.vx = Math.random() * 2 - 1;
+                this.vy = Math.random() * 2 - 1;
+            }
+
+            bewegung() {
+                if (this.x + this.vx >= 400) {
+                    this.vx = -this.vx;
+                }
+
+                if (this.x + this.vx <= 0) {
+                    this.vx = -this.vx;
+                }
+
+                if (this.y + this.vy >= 400) {
+                    this.vy = -this.vy;
+                }
+
+                if (this.y + this.vy <= 0) {
+                    this.vy = -this.vy;
+                }
+
+
+                this.x = this.x + this.vx;
+                this.y = this.y + this.vy;
+            }
+
+            zeichnen(context) {
+                context.beginPath()
+                context.arc(this.x, this.y, 5, 0, 2 * Math.PI)
+                context.fillStyle = "green";
+                context.fill()
+            }
+        }
+
+
+        let baelle = [];
+        for (let i = 0; i < 500; i++) {
+            baelle.push(new Ball())
+        }
+
+        setInterval(function () {
+            context.clearRect(0, 0, 400, 400)
+
+            for (let ball of baelle) {
+                ball.bewegung();
+                ball.zeichnen(context);
+            }
+        }, 10);
+    </script>
+</body>
+
+</html>

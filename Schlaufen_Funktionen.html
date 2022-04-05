@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        /* //1,3,5,7,9,11 //
+        for (let i = 1; i < 12; i = i + 2)
+            console.log(i);
+
+        //21,18,15,12,9,6,3,0
+        for (let i = 21; i >= 0; i = i - 3)
+            console.log(i);
+
+        //2,4,8,16,32,64
+        for (let i = 1; i < 65; i = i * 2)
+            console.log(i);
+
+        1,1,2,3,5,8,13,21,34,55
+        while (b <= 55) {
+            console.log(b);
+
+            let a_new = b;
+            let b_new = a + b;
+
+            a = a_new;
+            b = b_new;
+
+            console.log(a)
+            console.log(b)
+        } 
+
+        //Schlaufe für Array auslesen
+        let numbers = [3, 4, 6, 8, 11]
+        for (let i = 0; i < numbers.length; i++) {
+            console.log(numbers[i])
+        }
+        // neuere Variante zum Array auslesen
+        numbers.forEach(function (num, index) {
+            console.log(index + ' ->' + num);
+        }); 
+
+        let personen = [['Andi', 17], ['Barbara', 20], ['Claus', 33], ['Dora', 15], ['Emil', 26]];
+
+        for (let person of personen) {
+            if (person[1] >= 18) { console.log(person[0]) }
+        }
+       
+
+        //Schreiben Sie eine Funktion, die die Fläche eines Rechtecks mit den Seitenlängen a und b berechnet:
+        function flaecheRechteck(a, b) {
+            return a * b
+        }
+
+        flaecheRechteck(10, 20)
+        
+        // Programmieren Sie ein Zahlenratespiel – der Computer wählt eine Zufallszahl zwischen 1 und 100, und der Benutzer gibt jeweils eine Zahl ein und bekommt
+        //dann einen Hinweis, ob die eingegebene Zahl zu klein oder zu gross ist. Das Spiel endet, wenn der Benutzer die Zahl erarten hat.
+
+        alert('Raten Sie eine Zahl zwischen 1 und 100!');
+        let hiddenNumber = Math.floor(Math.random() * 100) + 1;
+        let input = 0
+
+        while (true) {
+            input = parseInt(prompt("Ihre Eingabe:"));
+
+            if (input == hiddenNumber) {
+                alert("Sehr gut, Sie haben die Zahl erraten!");
+                break;
+            } else if (input > hiddenNumber) {
+                alert("Ihre geratene Zahl ist zu hoch!");
+            } else if (input < hiddenNumber) {
+                alert("Ihre geratene Zahl ist zu niedrig!");
+            }
+        }
+        // Variante mit do while Schlaufe
+        
+        alert('Raten Sie eine Zahl zwischen 1 und 100!');
+        let hiddenNumber = Math.floor(Math.random() * 100) + 1;
+        let input = 0
+
+        do {
+            input = parseInt(prompt("Ihre Eingabe:"));
+
+            if (input == hiddenNumber) {
+                alert("Sehr gut, Sie haben die Zahl erraten!");
+            } else if (input > hiddenNumber) {
+                alert("Ihre geratene Zahl ist zu hoch!");
+            } else if (input < hiddenNumber) {
+                alert("Ihre geratene Zahl ist zu niedrig!");
+            }
+
+        } while (input != hiddenNumber);
+
+        */
+
+    </script>
+</head>
+
+<body>
+    <hi>Überschrift</hi>
+</body>
+
+</html>
