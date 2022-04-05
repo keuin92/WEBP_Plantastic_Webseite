@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-Liste</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <input id="eingabe" type="text" placeholder="Todo eingeben">
+
+    <button id="button">Todo-Eintrag anlegen</button>
+
+    <ul id="liste">
+
+    </ul>
+
+    <script>
+        // Erstellen Sie einen Event-Handler (click) für den Button
+        // Tipp: $(...).click(...)
+        $('#button').click(function () {
+            let text = $('#eingabe').val();
+            $('#liste').append(`<li>${text}</li>`);
+            $('#eingabe').val('');
+
+        })
+
+        // in der Event-Handler-Funktion:
+
+            // holen Sie den eingegebenen Text aus dem Eingabefeld:
+            // Tipp: let text = $('...').val();
+
+            // Fügen Sie ein neues li-Element mit dem Text an die Liste
+            // Tipp: $('...').append('<li>...</li>')
+
+            // Löschen Sie den eingegebenen Text aus dem Eingabefeld
+            // Tipp:  $(...).val('')
+
+    </script>
+</body>
+
+</html>

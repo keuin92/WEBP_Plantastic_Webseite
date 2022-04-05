@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <canvas id="canvas" width="400" height="400" style="border: 1px solid black;"></canvas>
+    <canvas id="canvas" width="500" height="500" style="border: 1px solid black;"></canvas>
 
     <script>
         let canvas = document.getElementById("canvas");
@@ -17,15 +17,15 @@
 
         class Ball {
             constructor() {
-                this.x = Math.random() * 400;
-                this.y = Math.random() * 400;
+                this.x = Math.random() * 500;
+                this.y = Math.random() * 500;
 
                 this.vx = Math.random() * 2 - 1;
                 this.vy = Math.random() * 2 - 1;
             }
 
             bewegung() {
-                if (this.x + this.vx >= 400) {
+                if (this.x + this.vx >= 500) {
                     this.vx = -this.vx;
                 }
 
@@ -33,7 +33,7 @@
                     this.vx = -this.vx;
                 }
 
-                if (this.y + this.vy >= 400) {
+                if (this.y + this.vy >= 500) {
                     this.vy = -this.vy;
                 }
 
@@ -49,7 +49,7 @@
             zeichnen(context) {
                 context.beginPath()
                 context.arc(this.x, this.y, 5, 0, 2 * Math.PI)
-                context.fillStyle = "green";
+                context.fillStyle = "blue";
                 context.fill()
             }
         }
@@ -61,7 +61,7 @@
         }
 
         setInterval(function () {
-            context.clearRect(0, 0, 400, 400)
+            context.clearRect(0, 0, 500, 500)
 
             for (let ball of baelle) {
                 ball.bewegung();
