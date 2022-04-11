@@ -100,20 +100,54 @@
 
 .willkommen {
     color: black;
+    font-size: 65px;
     text-align: center;
-    font-size: 100px;
     margin-top: 150px;
     margin-bottom: 50px;
+    border-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.flex-container {
-    border-top: 500px;
-    margin-top: 200px;
+.text {
+    width:97%;
+    color: black;
+    font-size:25px;
+    margin: auto;
+    padding-top:22px;
+    padding-bottom: 22px;
+}
+
+.regionen_flex-container {
+    border-top: 200px;
+    margin-top: 50px;
+    padding-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
     height: 100%;
-    background-color: rgba(105, 105, 105, 0.9)
+    background-color: rgb(245,245,245,0.7);
+}
+
+.regionen_flex-container > a {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    margin-top: 25px; 
+    margin-bottom: 25px; 
+    text-align: center;
+    font-size: 30px;
+}
+
+.flex-container {
+    border-top: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 100%;
+    background-color: rgb(245,245,245,0.7);
+    
 }
 
 .button {
