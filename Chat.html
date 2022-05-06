@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Beispiel</title>
+
+    <!-- jquery kann genutzt werden -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <style>
+        /* etwas Styling */
+        #chat {
+            border: 1px solid gray;
+            width: 800px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chat-Beispiel</h1>
+
+    <!-- Ein div-Element, in dem die Chat-Nachrichten angezeigt werden sollen -->
+    <div id="chat"></div>
+
+    <!-- Eingabefeld für Textnachricht -->
+    <input type="text" id="message"> <button id="send-button">Absenden</button>
+
+    <script>
+        /* In dieser Übung wird ein kleiner Chat realisiert - die Serverseite ist dabei gegeben, siehe
+           http://46.163.114.32 
+           
+        
+           Fügen Sie an den mit TODO gekennzeichneten Stellen sinnvollen Code ein.
+        */
+
+        // Funktion - lädt die Chatnachrichten per Ajax und zeigt sie im chatDiv an
+        function updateChat() {
+            let url = 'http://46.163.114.32:5000/messages';
+
+            // Nachrichten laden
+            $.get(url, function (messages) {
+                // hier einen HTML-String erzeugen
+                let html = '';
+
+                // Schleife über alle Chat-Nachrichten
+                for (let message of messages) {
+                    /* das HTML für die Chat-Nachrichten könnte z.B. so aussehen: */
+                    html = html + "<div>" + message.name + " : " + message.message + "</div>";
+
+                }
+
+                // HTML in das div einfügen
+                $('#chat').html(html)
+            });
+        }
+
+        // einmal pro Sekunde die Chatnachrichten aktualisieren
+        setInterval(updateChat, 1000);
+
+        $("#send-button").click(function () {
+            // unser Chat-Name wird hier festgelegt - eine Anmeldung oder Login gibt es 
+            // in diesem kleinen Beispiel nicht
+            let name = 'Kevin';
+
+            // Nachrichtentext mit jQuery aus dem Eingabefeld holen
+            let message = $("#message").val();
+
+            let url = 'http://46.163.114.32:5000/send';
+
+            // Chat-Nachricht per Post an den Server senden
+            $.post(url, { name, message }, function (result) {
+                // TODO nach dem erfolgreichen Absenden soll das Textfeld wieder geleert werden
+            })
+        });
+
+    </script>
+</body>
+
+</html>
