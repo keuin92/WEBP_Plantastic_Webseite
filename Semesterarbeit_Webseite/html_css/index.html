@@ -86,38 +86,68 @@
     <div class="flex-container">
         <!-- Quelle Flex Box: https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_nowrap8 -->
         <!-- Quelle Flex Box: https://www.rapidtables.com/web/html/link/html-image-link.html -->
-        <div class="map"  id="container_map" ></div><br>
-        <div class="filter" >
-            <h1>Logiernächte</h1>
+        <div class="map" id="container_map"></div><br>
+        <div class="filter">
+            <h2>Logiernächte</h2>
             <br>
-            <div class="radio" id="Jahr"> 
+            <div class="radio" id="Jahr">
                 <h3>Jahr</h3>
                 <br>
                 <div class="range-wrap">
                     <div class="range-value" id="rangeV"></div>
                     <input id="range_Jahr" type="range" min="2005" max="2021" value="2005" step="1">
-                  </div>
+                </div>
             </div>
-            <div class="radio" id="Unterkunft"> 
-                <h3>Unterkunft</h3>
-                <input type="radio" name="Unterkunft" id="radio_hotellerie" value="hotellerie" checked><label> Hotellerie</label><br>
-                <!-- <input type="radio" name="Unterkunft" id="radio_parahotellerie" value="parahotellerie" ><label> Parahotellerie</label> -->
+            <div class="radio" id="Unterkunft">
+                <h3>Gästeherkunft</h3>
+                <input type="radio" name="radio_herkunft" id="radio_Total" checked><label>
+                    Total</label><br>
+                <input type="radio" name="radio_herkunft" id="radio_Schweiz"><label>
+                    Schweiz</label><br>
+                <input type="radio" name="radio_herkunft" id="radio_Ausland"><label>
+                    Ausland</label><br>
             </div>
             <br>
-            <div class="checkbox" id="Unterkunft"> 
-                <h3>Tourismus Regionen</h3>
-                <input type="checkbox" name="checkbox_Aargau-Solothurn" id="checkbox_Aargau-Solothurn" checked><label> Aargau-Solothurn</label><br>
-                <input type="checkbox" name="checkbox_Basel" id="checkbox_Basel" checked><label> Basel</label><br>
+            <div class="checkbox" id="Unterkunft">
+                <h3>Kantone</h3>
+                <input type="checkbox" name="checkbox_Aargau" id="checkbox_Aargau" checked><label> Aargau</label><br>
+                <input type="checkbox" name="checkbox_Appenzell_Innerrhoden" id="checkbox_Appenzell_Innerrhoden"
+                    checked><label> Appenzell Innerrhoden</label><br>
+                <input type="checkbox" name="checkbox_Appenzell_Ausserrhoden" id="checkbox_Appenzell_Ausserrhoden"
+                    checked><label> Appenzell Ausserrhoden</label><br>
+                <input type="checkbox" name="checkbox_Basel-Stadt" id="checkbox_Basel-Stadt" checked><label>
+                    Basel-Stadt</label><br>
+                <input type="checkbox" name="checkbox_Basel-Landschaft" id="checkbox_Basel-Landschaft" checked><label>
+                    Basel-Landschaft</label><br>
                 <input type="checkbox" name="checkbox_Bern" id="checkbox_Bern" checked><label> Bern</label><br>
-                <input type="checkbox" name="checkbox_Fribourg" id="checkbox_Fribourg" checked><label> Fribourg</label><br>
+                <input type="checkbox" name="checkbox_Freiburg" id="checkbox_Freiburg" checked><label>
+                    Freiburg</label><br>
                 <input type="checkbox" name="checkbox_Genf" id="checkbox_Genf" checked><label> Genf</label><br>
-                <input type="checkbox" name="checkbox_Genferseegebiet" id="checkbox_Genferseegebiet" checked><label> Genferseegebiet</label><br>
-                <input type="checkbox" name="checkbox_Graubuenden" id="checkbox_Graubuenden" checked><label> Graubünden</label><br>
-                <input type="checkbox" name="checkbox_Jura_Drei-Seen-Land" id="checkbox_Jura_Drei-Seen-Land" checked><label> Jura & Drei-Seen-Land</label><br>
-                <input type="checkbox" name="checkbox_Luzern-Vierwaldstaettersee" id="checkbox_Luzern-Vierwaldstaettersee" checked><label> Luzern-Vierwaldstättersee</label><br>
-                <input type="checkbox" name="checkbox_Ostschweiz" id="checkbox_Ostschweiz" checked><label> Ostschweiz</label><br>
+                <input type="checkbox" name="checkbox_Glarus" id="checkbox_Glarus" checked><label> Glarus</label><br>
+                <input type="checkbox" name="checkbox_Graubuenden" id="checkbox_Graubuenden" checked><label>
+                    Graubünden</label><br>
+                <input type="checkbox" name="checkbox_Jura" id="checkbox_Jura" checked><label>
+                    Jura</label><br>
+                <input type="checkbox" name="checkbox_Luzern" id="checkbox_Luzern" checked><label> Luzern</label><br>
+                <input type="checkbox" name="checkbox_Neuenburg" id="checkbox_Neuenburg" checked><label>
+                    Neuenburg</label><br>
+                <input type="checkbox" name="checkbox_Nidwalden" id="checkbox_Nidwalden" checked><label>
+                    Nidwalden</label><br>
+                <input type="checkbox" name="checkbox_Obwalden" id="checkbox_Obwalden" checked><label>
+                    Obwalden</label><br>
+                <input type="checkbox" name="checkbox_Schaffhausen" id="checkbox_Schaffhausen" checked><label>
+                    Schaffhausen</label><br>
+                <input type="checkbox" name="checkbox_Schwyz" id="checkbox_Schwyz" checked><label> Schwyz</label><br>
+                <input type="checkbox" name="checkbox_Solothurn" id="checkbox_Solothurn" checked><label>
+                    Solothurn</label><br>
+                <input type="checkbox" name="checkbox_StGallen" id="checkbox_StGallen" checked><label> St.
+                    Gallen</label><br>
                 <input type="checkbox" name="checkbox_Tessin" id="checkbox_Tessin" checked><label> Tessin</label><br>
+                <input type="checkbox" name="checkbox_Thurgau" id="checkbox_Thurgau" checked><label> Thurgau</label><br>
+                <input type="checkbox" name="checkbox_Uri" id="checkbox_Uri" checked><label> Uri</label><br>
+                <input type="checkbox" name="checkbox_Waadt" id="checkbox_Waadt" checked><label> Waadt</label><br>
                 <input type="checkbox" name="checkbox_Wallis" id="checkbox_Wallis" checked><label> Wallis</label><br>
+                <input type="checkbox" name="checkbox_Zug" id="checkbox_Zug" checked><label> Zug</label><br>
                 <input type="checkbox" name="checkbox_Zuerich" id="checkbox_Zuerich" checked><label> Zürich</label><br>
             </div>
         </div>

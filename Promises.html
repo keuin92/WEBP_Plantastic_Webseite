@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat-Beispiel</title>
+
+  <!-- jquery kann genutzt werden -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <style>
+    /* etwas Styling */
+    #chat {
+      border: 1px solid gray;
+      width: 800px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script>
+
+    // Gibt alle Statis der Ergebisse aus:
+
+    /* const promise1 = Promise.resolve(3);
+     const promise2 = new Promise((resolve, reject) => setTimeout(reject, 100, 'foo'));
+     const promise3 = Promise.resolve(3);
+     const promises = [promise1, promise2, promise3];
+ 
+     Promise.allSettled(promises).
+       then((results) => results.forEach((result) => console.log(result.status)));
+ */
+    // Gibt das erste erfolgreiche Ergebnis aus:
+
+    const promise1 = Promise.reject(0);
+    const promise2 = new Promise((resolve) => setTimeout(resolve, 100, 'quick'));
+    const promise3 = new Promise((resolve) => setTimeout(resolve, 500, 'slow'));
+    const promises = [promise1, promise2, promise3];
+
+    Promise.any(promises).then((value) => console.log(value));
+
+  </script>
+</body>
+
+</html>

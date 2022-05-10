@@ -1,0 +1,272 @@
+{
+    "22.05.2021 20.42.48": {
+        "meal_id": "1",
+        "meal_name": "Tagliatelle",
+        "meal_type": "Fleisch",
+        "meal_origin": "Italien",
+        "meal_health": "599 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Tagliatelle_Bolognese.pdf"
+    },
+    "22.05.2021 21.41.48": {
+        "meal_id": "2",
+        "meal_name": "Lauch-Champignons Roesti",
+        "meal_type": "Vegetarisch",
+        "meal_origin": "Schweiz",
+        "meal_health": "538 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Lauch-Champignions_Roesti.pdf"
+    },
+    "22.05.2021 22.33.48": {
+        "meal_id": "3",
+        "meal_name": "Couscous Salat",
+        "meal_type": "Vegan",
+        "meal_origin": "Afrika",
+        "meal_health": "600 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Couscous_Salat.pdf"
+    },
+    "23.05.2021 10.33.48": {
+        "meal_id": "4",
+        "meal_name": "Fajitas",
+        "meal_type": "Fleisch",
+        "meal_origin": "Lateinamerika",
+        "meal_health": "435 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "hammer",
+        "meal_recipe": "Fajitas.pdf"
+    },
+    "23.05.2021 20.33.48": {
+        "meal_id": "5",
+        "meal_name": "Gegrillter Lachs",
+        "meal_type": "Fisch",
+        "meal_origin": "Europa",
+        "meal_health": "598 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "ganz ok",
+        "meal_recipe": "Gegrillter_Lachs.pdf"
+    },
+    "28.05.2021 00.10.37": {
+        "meal_id": "6",
+        "meal_name": "Honig-Zitronen Poulet",
+        "meal_type": "Fleisch",
+        "meal_origin": "Asien",
+        "meal_health": "410 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Honig-Zitronen_Poulet.pdf"
+    },
+    "31.05.2021 08.59.41": {
+        "meal_id": "7",
+        "meal_name": "Fleischb\u00e4lchen",
+        "meal_type": "Fleisch",
+        "meal_origin": "Europa",
+        "meal_health": "590 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "ganz ok",
+        "meal_recipe": "Flesichbaelchen.pdf"
+    },
+    "31.05.2021 09.01.49": {
+        "meal_id": "8",
+        "meal_name": "Gef\u00fcllte Peperoni",
+        "meal_type": "Fleisch",
+        "meal_origin": "Europa",
+        "meal_health": "449 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Gefuellte_Peperoni.pdf"
+    },
+    "31.05.2021 09.03.04": {
+        "meal_id": "9",
+        "meal_name": "Gerstenrisotto",
+        "meal_type": "Vegetarisch",
+        "meal_origin": "Italien",
+        "meal_health": "581 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "na ja",
+        "meal_recipe": "Gerstenrisotto.pdf"
+    },
+    "31.05.2021 09.04.07": {
+        "meal_id": "10",
+        "meal_name": "Pilz Zwiebel Spiessli",
+        "meal_type": "Fleisch",
+        "meal_origin": "Europa",
+        "meal_health": "440 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Pilz-Zwiebel_Spiessli.pdf"
+    },
+    "31.05.2021 09.05.17": {
+        "meal_id": "11",
+        "meal_name": "S\u00fcss Sauer Poulet",
+        "meal_type": "Fleisch",
+        "meal_origin": "Asien",
+        "meal_health": "524 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Suess-Sauer_Poulet.pdf"
+    },
+    "31.05.2021 09.07.16": {
+        "meal_id": "12",
+        "meal_name": "Regenbogen Sushi",
+        "meal_type": "Vegetarisch",
+        "meal_origin": "Asien",
+        "meal_health": "350 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "na ja",
+        "meal_recipe": "Regenbogen_Sushi.pdf"
+    },
+    "31.05.2021 09.07.49": {
+        "meal_id": "13",
+        "meal_name": "Rinds Wrap",
+        "meal_type": "Fleisch",
+        "meal_origin": "Lateinamerika",
+        "meal_health": "586 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "ganz ok",
+        "meal_recipe": "Rinds_Wrap.pdf"
+    },
+    "31.05.2021 09.08.52": {
+        "meal_id": "14",
+        "meal_name": "Bibimbap Poulet",
+        "meal_type": "Fleisch",
+        "meal_origin": "Asien",
+        "meal_health": "450 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Bibimbap_Poulet.pdf"
+    },
+    "31.05.2021 09.09.53": {
+        "meal_id": "15",
+        "meal_name": "\u00c4lplermageronen",
+        "meal_type": "Vegetarisch",
+        "meal_origin": "Schweiz",
+        "meal_health": "595 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "ganz ok",
+        "meal_recipe": "Aelplermagronen.pdf"
+    },
+    "01.06.2021 21.21.19": {
+        "meal_id": "16",
+        "meal_name": "Lasagne L\u00e9g\u00e8re",
+        "meal_type": "Fleisch",
+        "meal_origin": "Italien",
+        "meal_health": "354 kcal",
+        "meal_time": "120 Min",
+        "meal_rate": "hammer",
+        "meal_recipe": "Lasagne_l\u00e9g\u00e8re.pdf"
+    },
+    "02.06.2021 19.46.46": {
+        "meal_id": "17",
+        "meal_name": "K\u00fcrbissuppe",
+        "meal_type": "Vegetarisch",
+        "meal_origin": "Europa",
+        "meal_health": "350 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "K\u00fcrbissuppe.pdf"
+    },
+    "02.06.2021 19.51.16": {
+        "meal_id": "18",
+        "meal_name": "Butter-Chicken",
+        "meal_type": "Fleisch",
+        "meal_origin": "Asien",
+        "meal_health": "692 kcal",
+        "meal_time": "120 Min",
+        "meal_rate": "na ja",
+        "meal_recipe": "Butter-Chicken.pdf"
+    },
+    "02.06.2021 19.52.39": {
+        "meal_id": "19",
+        "meal_name": "W\u00fcrstli-im-Teig",
+        "meal_type": "Fleisch",
+        "meal_origin": "Schweiz",
+        "meal_health": "296 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "ganz ok",
+        "meal_recipe": "Wuerstli-im-Teig.pdf"
+    },
+    "02.06.2021 19.55.03": {
+        "meal_id": "20",
+        "meal_name": "Bacon-Cheeseburger",
+        "meal_type": "Fleisch",
+        "meal_origin": "USA",
+        "meal_health": "366 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Bacon-Cheeseburger.pdf"
+    },
+    "02.06.2021 19.56.04": {
+        "meal_id": "21",
+        "meal_name": "Poke-Bowl",
+        "meal_type": "Fisch",
+        "meal_origin": "Asien",
+        "meal_health": "716 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "ganz ok",
+        "meal_recipe": "Poke-Bowl.pdf"
+    },
+    "02.06.2021 22.12.08": {
+        "meal_id": "22",
+        "meal_name": "Dampfnudeln",
+        "meal_type": "Vegetarisch",
+        "meal_origin": "Schweiz",
+        "meal_health": "246 kcal",
+        "meal_time": "120 Min",
+        "meal_rate": "ganz ok",
+        "meal_recipe": "Dampfnudeln-Vanillesauce.pdf"
+    },
+    "06.06.2021 09.42.25": {
+        "meal_id": "23",
+        "meal_name": "Capuns",
+        "meal_type": "Fleisch",
+        "meal_origin": "Schweiz",
+        "meal_health": "555 kcal",
+        "meal_time": "120 Min",
+        "meal_rate": "hammer",
+        "meal_recipe": "Capuns.pdf"
+    },
+    "08.06.2021 23.46.01": {
+        "meal_id": "24",
+        "meal_name": "Churer Fleischtorte",
+        "meal_type": "Fleisch",
+        "meal_origin": "Schweiz",
+        "meal_health": "525 kcal",
+        "meal_time": "90 Min",
+        "meal_rate": "hammer",
+        "meal_recipe": "Churer Fleischtorte.pdf"
+    },
+    "10.06.2021 15.04.49": {
+        "meal_id": "25",
+        "meal_name": "Forelle mit Dillpesto",
+        "meal_type": "Fisch",
+        "meal_origin": "Schweiz",
+        "meal_health": "190 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "hammer",
+        "meal_recipe": "Forellen-mit-Dillpesto.pdf"
+    },
+    "16.06.2021 08.43.35": {
+        "meal_id": "26",
+        "meal_name": "Pasta mit Mangold-Fetacreme",
+        "meal_type": "Vegetarisch",
+        "meal_origin": "Schweiz",
+        "meal_health": "661 kcal",
+        "meal_time": "30 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "Pasta Mangold-Fetacreme.pdf"
+    },
+    "03.05.2022 15.26.22": {
+        "meal_id": "27",
+        "meal_name": "K\u00e4sekn\u00f6del",
+        "meal_type": "Vegetarisch",
+        "meal_origin": "Europa",
+        "meal_health": "878 kcal",
+        "meal_time": "60 Min",
+        "meal_rate": "echt guat",
+        "meal_recipe": "K\u00e4sekn\u00f6del.pdf"
+    }
+}

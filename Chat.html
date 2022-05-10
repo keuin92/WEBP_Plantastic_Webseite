@@ -40,7 +40,7 @@
 
         // Funktion - lädt die Chatnachrichten per Ajax und zeigt sie im chatDiv an
         function updateChat() {
-            let url = 'http://46.163.114.32:5000/messages';
+            let url = 'http://chat.baetge.info/messages';
 
             // Nachrichten laden
             $.get(url, function (messages) {
@@ -70,7 +70,7 @@
             // Nachrichtentext mit jQuery aus dem Eingabefeld holen
             let message = $("#message").val();
 
-            let url = 'http://46.163.114.32:5000/send';
+            let url = 'http://chat.baetge.info/send';
 
             // Chat-Nachricht per Post an den Server senden
             $.post(url, { name, message }, function (result) {

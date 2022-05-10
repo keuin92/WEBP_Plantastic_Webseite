@@ -13,36 +13,36 @@ async function karteAnzeigen() {
         ['ch-nw', 300], ['ch-ai', 220], ['ch-ge', 320], ['ch-ju', 150],
         ['ch-ne', 150], ['ch-ag', 110]
     ];
-    const data_2005 = [['Unterkunft','Hottelerie'],
-        ['Year','2005'], ['Year','2006'], ['Year','2007'], ['Year','2008'], ['Year','2009'], ['Year','2010'],
-        ['ch-fr', 349496], ['ch-fr', 10],
-        ['ch-lu', 1407112], 
-        ['ch-ni', 268707], 
+
+    const data_2005 = [
+        ['ch-fr', 349496],
+        ['ch-lu', 1407112],
+        ['ch-ni', 268707],
         ['ch-vs', 4201759],
-        ['ch-sg', 1012368], 
-        ['ch-ar', 164045], 
-        ['ch-ti', 2538996], 
+        ['ch-sg', 1012368],
+        ['ch-ar', 164045],
+        ['ch-ti', 2538996],
         ['ch-gl', 139974],
-        ['ch-gr', 5569534], 
-        ['ch-sz', 552396], 
-        ['ch-tg', 367820], 
+        ['ch-gr', 5569534],
+        ['ch-sz', 552396],
+        ['ch-tg', 367820],
         ['ch-sh', 105697],
-        ['ch-ur', 219753], 
-        ['ch-zh', 3567970], 
-        ['ch-zg', 236312], 
+        ['ch-ur', 219753],
+        ['ch-zh', 3567970],
+        ['ch-zg', 236312],
         ['ch-vd', 2340096],
-        ['ch-bl', 206106], 
-        ['ch-be', 4697253], 
-        ['ch-bs', 734313], 
+        ['ch-bl', 206106],
+        ['ch-be', 4697253],
+        ['ch-bs', 734313],
         ['ch-so', 300141],
-        ['ch-nw', 562552], 
-        ['ch-ai', 144889], 
-        ['ch-ge', 2379795], 
+        ['ch-nw', 562552],
+        ['ch-ai', 144889],
+        ['ch-ge', 2379795],
         ['ch-ju', 74796],
-        ['ch-ne', 202986], 
+        ['ch-ne', 202986],
         ['ch-ag', 598870]
     ];
-    
+
     // Create the chart
     Highcharts.mapChart('container_map', {
         chart: {
@@ -71,13 +71,15 @@ async function karteAnzeigen() {
             minColor: '#00FF00',
             maxColor: '#001000',
         },
-        
-        navigator : {
-            enabled : false
+
+        navigator: {
+            enabled: false
         },
 
         series: [{
             data: data_2005,
+            /* keys: ['code_hasc', 'value'],
+            joinBy: 'code_hasc', */
             name: 'Logiernächte',
             /*states: {
                 hover: {
@@ -107,17 +109,55 @@ $('#range_Jahr').change(function () {
     updateKarte()
 })
 
-// Sämtliche Funktionen für den Filter Tourismus Regionen
+// Funktion für den Filter der Gaesteherkunft
 
-$('#checkbox_Aargau-Solothurn').change(function () {
-    let aargau_solothurn = $('#checkbox_Aargau-Solothurn').is(':checked')
-    console.log("checkbox_Aargau-Solothurn " + aargau_solothurn)
+$('#radio_Total').change(function () {
+    let radio_total = $('#radio_Total').is(':checked')
+    console.log("radio_Total " + radio_total)
     updateKarte()
 })
 
-$('#checkbox_Basel').change(function () {
-    let basel = $('#checkbox_Basel').is(':checked')
-    console.log("checkbox_Basel " + basel)
+$('#radio_Schweiz').change(function () {
+    let radio_schweiz = $('#radio_Schweiz').is(':checked')
+    console.log("radio_Schweiz " + radio_schweiz)
+    updateKarte()
+})
+
+$('#radio_Ausland').change(function () {
+    let radio_ausland = $('#radio_Ausland').is(':checked')
+    console.log("radio_Ausland " + radio_ausland)
+    updateKarte()
+})
+
+// Sämtliche Funktionen für den Filter der Kantone
+
+$('#checkbox_Aargau').change(function () {
+    let aargau = $('#checkbox_Aargau').is(':checked')
+    console.log("checkbox_Aargau " + aargau)
+    updateKarte()
+})
+
+$('#checkbox_Appenzell_Innerrhoden').change(function () {
+    let appenzell_innerhoden = $('#checkbox_Appenzell_Innerrhoden').is(':checked')
+    console.log("checkbox_Appenzell_Innerrhoden " + appenzell_innerhoden)
+    updateKarte()
+})
+
+$('#checkbox_Appenzell_Ausserrhoden').change(function () {
+    let appenzell_ausserrhoden = $('#checkbox_Appenzell_Ausserrhoden').is(':checked')
+    console.log("checkbox_Appenzell_Ausserrhoden " + appenzell_ausserrhoden)
+    updateKarte()
+})
+
+$('#checkbox_Basel-Stadt').change(function () {
+    let basel_stadt = $('#checkbox_Basel-Stadt').is(':checked')
+    console.log("checkbox_Basel-Stadt " + basel_stadt)
+    updateKarte()
+})
+
+$('#checkbox_Basel-Landschaft').change(function () {
+    let basel_Landschaft = $('#checkbox_Basel-Landschaft').is(':checked')
+    console.log("checkbox_Basel-Landschaft " + basel_Landschaft)
     updateKarte()
 })
 
@@ -127,15 +167,21 @@ $('#checkbox_Bern').change(function () {
     updateKarte()
 })
 
-$('#checkbox_Fribourg').change(function () {
-    let fribourg = $('#checkbox_Fribourg').is(':checked')
-    console.log("checkbox_Fribourg " + fribourg)
+$('#checkbox_Freiburg').change(function () {
+    let freiburg = $('#checkbox_Freiburg').is(':checked')
+    console.log("checkbox_Freiburg " + freiburg)
     updateKarte()
 })
 
-$('#checkbox_Genferseegebiet').change(function () {
-    let genferseegebiet = $('#checkbox_Genferseegebiet').is(':checked')
-    console.log("checkbox_Genferseegebiet " + genferseegebiet)
+$('#checkbox_Genf').change(function () {
+    let genf = $('#checkbox_Genf').is(':checked')
+    console.log("checkbox_Genf " + genf)
+    updateKarte()
+})
+
+$('#checkbox_Glarus').change(function () {
+    let glarus = $('#checkbox_Glarus').is(':checked')
+    console.log("checkbox_Glarus " + glarus)
     updateKarte()
 })
 
@@ -145,21 +191,57 @@ $('#checkbox_Graubuenden').change(function () {
     updateKarte()
 })
 
-$('#checkbox_Jura_Drei-Seen-Land').change(function () {
-    let jura = $('#checkbox_Jura_Drei-Seen-Land').is(':checked')
-    console.log("checkbox_Jura & Drei-Seen-Land " + jura)
+$('#checkbox_Jura').change(function () {
+    let jura = $('#checkbox_Jura').is(':checked')
+    console.log("checkbox_Jura " + jura)
     updateKarte()
 })
 
-$('#checkbox_Luzern-Vierwaldstaettersee').change(function () {
-    let luzern = $('#checkbox_Luzern-Vierwaldstaettersee').is(':checked')
-    console.log("checkbox_Luzern-Vierwaldstättersee " + luzern)
+$('#checkbox_Luzern').change(function () {
+    let luzern = $('#checkbox_Luzern').is(':checked')
+    console.log("checkbox_Luzern " + luzern)
     updateKarte()
 })
 
-$('#checkbox_Ostschweiz').change(function () {
-    let ostschweiz = $('#checkbox_Ostschweiz').is(':checked')
-    console.log("checkbox_Ostschweiz " + ostschweiz)
+$('#checkbox_Neuenburg').change(function () {
+    let neuenburg = $('#checkbox_Neuenburg').is(':checked')
+    console.log("checkbox_Neuenburg " + neuenburg)
+    updateKarte()
+})
+
+$('#checkbox_Nidwalden').change(function () {
+    let nidwalden = $('#checkbox_Nidwalden').is(':checked')
+    console.log("checkbox_Nidwalden " + nidwalden)
+    updateKarte()
+})
+
+$('#checkbox_Obwalden').change(function () {
+    let obwalden = $('#checkbox_Obwalden').is(':checked')
+    console.log("checkbox_Obwalden " + obwalden)
+    updateKarte()
+})
+
+$('#checkbox_Schaffhausen').change(function () {
+    let schaffhausen = $('#checkbox_Schaffhausen').is(':checked')
+    console.log("checkbox_Schaffhausen " + schaffhausen)
+    updateKarte()
+})
+
+$('#checkbox_Schwyz').change(function () {
+    let schwyz = $('#checkbox_Schwyz').is(':checked')
+    console.log("checkbox_Schwyz " + schwyz)
+    updateKarte()
+})
+
+$('#checkbox_Solothurn').change(function () {
+    let solothurn = $('#checkbox_Solothurn').is(':checked')
+    console.log("checkbox_Solothurn " + solothurn)
+    updateKarte()
+})
+
+$('#checkbox_StGallen').change(function () {
+    let st_gallen = $('#checkbox_StGallen').is(':checked')
+    console.log("checkbox_StGallen " + st_gallen)
     updateKarte()
 })
 
@@ -169,15 +251,33 @@ $('#checkbox_Tessin').change(function () {
     updateKarte()
 })
 
+$('#checkbox_Thurgau').change(function () {
+    let thurgau = $('#checkbox_Thurgau').is(':checked')
+    console.log("checkbox_Thurgau " + thurgau)
+    updateKarte()
+})
+
+$('#checkbox_Uri').change(function () {
+    let uri = $('#checkbox_Uri').is(':checked')
+    console.log("checkbox_Uri " + uri)
+    updateKarte()
+})
+
 $('#checkbox_Wallis').change(function () {
     let wallis = $('#checkbox_Wallis').is(':checked')
     console.log("checkbox_Wallis " + wallis)
     updateKarte()
 })
 
+$('#checkbox_Zug').change(function () {
+    let zug = $('#checkbox_Zug').is(':checked')
+    console.log("checkbox_Zug " + zug)
+    updateKarte()
+})
+
 $('#checkbox_Zuerich').change(function () {
     let zurich = $('#checkbox_Zuerich').is(':checked')
-    console.log("checkbox_Zürich " + zurich)
+    console.log("checkbox_Zuerich " + zurich)
     updateKarte()
 })
 /* hier weitere Event-Handler für andere Checkboxen
@@ -194,14 +294,14 @@ $('#Hotellerie').change(function () {
 
 /* Code für die Anzeige des ausgewählten Jahres auf dem Regler. Quelle: https://css-tricks.com/value-bubbles-for-range-inputs/ */
 const
-  range = document.getElementById('range_Jahr'),
-  rangeV = document.getElementById('rangeV'),
-  setValue = ()=>{
-    const
-      newValue = Number( (range.value - range.min) * 100 / (range.max - range.min) ),
-      newPosition = 10 - (newValue * 0.2);
-    rangeV.innerHTML = `<span>${range.value}</span>`;
-    rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
-  };
+    range = document.getElementById('range_Jahr'),
+    rangeV = document.getElementById('rangeV'),
+    setValue = () => {
+        const
+            newValue = Number((range.value - range.min) * 100 / (range.max - range.min)),
+            newPosition = 10 - (newValue * 0.2);
+        rangeV.innerHTML = `<span>${range.value}</span>`;
+        rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
+    };
 document.addEventListener("DOMContentLoaded", setValue);
 range.addEventListener('input', setValue);
