@@ -1,5 +1,5 @@
 const json = `{
-  "2005ch-zh": {
+  "200501": {
     "Jahr": 2005,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -7,7 +7,7 @@ const json = `{
     "Inland": 1029728,
     "Ausland": 2538242
   },
-  "2005ch-be": {
+  "200502": {
     "Jahr": 2005,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -15,7 +15,7 @@ const json = `{
     "Inland": 2189236,
     "Ausland": 2508017
   },
-  "2005ch-lu": {
+  "200503": {
     "Jahr": 2005,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -23,7 +23,7 @@ const json = `{
     "Inland": 533345,
     "Ausland": 873767
   },
-  "2005ch-ur": {
+  "200504": {
     "Jahr": 2005,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -31,7 +31,7 @@ const json = `{
     "Inland": 79876,
     "Ausland": 139877
   },
-  "2005ch-sz": {
+  "200505": {
     "Jahr": 2005,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -39,7 +39,7 @@ const json = `{
     "Inland": 366764,
     "Ausland": 185632
   },
-  "2005ch-ow": {
+  "200506": {
     "Jahr": 2005,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -47,7 +47,7 @@ const json = `{
     "Inland": 225673,
     "Ausland": 336879
   },
-  "2005ch-ni": {
+  "200507": {
     "Jahr": 2005,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -55,7 +55,7 @@ const json = `{
     "Inland": 125227,
     "Ausland": 143480
   },
-  "2005ch-gl": {
+  "200508": {
     "Jahr": 2005,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -63,7 +63,7 @@ const json = `{
     "Inland": 113089,
     "Ausland": 26885
   },
-  "2005ch-zg": {
+  "200509": {
     "Jahr": 2005,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -71,7 +71,7 @@ const json = `{
     "Inland": 123064,
     "Ausland": 113248
   },
-  "2005ch-fr": {
+  "200510": {
     "Jahr": 2005,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -79,7 +79,7 @@ const json = `{
     "Inland": 222394,
     "Ausland": 127102
   },
-  "2005ch-so": {
+  "200511": {
     "Jahr": 2005,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -87,7 +87,7 @@ const json = `{
     "Inland": 157712,
     "Ausland": 142429
   },
-  "2005ch-bs": {
+  "200512": {
     "Jahr": 2005,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -95,7 +95,7 @@ const json = `{
     "Inland": 213384,
     "Ausland": 520929
   },
-  "2005ch-bl": {
+  "200513": {
     "Jahr": 2005,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -103,7 +103,7 @@ const json = `{
     "Inland": 109682,
     "Ausland": 96424
   },
-  "2005ch-sh": {
+  "200514": {
     "Jahr": 2005,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -111,7 +111,7 @@ const json = `{
     "Inland": 43871,
     "Ausland": 61826
   },
-  "2005ch-ar": {
+  "200515": {
     "Jahr": 2005,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -119,7 +119,7 @@ const json = `{
     "Inland": 128882,
     "Ausland": 35163
   },
-  "2005ch-ai": {
+  "200516": {
     "Jahr": 2005,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -127,7 +127,7 @@ const json = `{
     "Inland": 119944,
     "Ausland": 24945
   },
-  "2005ch-sg": {
+  "200517": {
     "Jahr": 2005,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -135,7 +135,7 @@ const json = `{
     "Inland": 604958,
     "Ausland": 407410
   },
-  "2005ch-gr": {
+  "200518": {
     "Jahr": 2005,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -143,7 +143,7 @@ const json = `{
     "Inland": 2861073,
     "Ausland": 2708461
   },
-  "2005ch-ag": {
+  "200519": {
     "Jahr": 2005,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -151,7 +151,7 @@ const json = `{
     "Inland": 313087,
     "Ausland": 285783
   },
-  "2005ch-tg": {
+  "200520": {
     "Jahr": 2005,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -159,7 +159,7 @@ const json = `{
     "Inland": 240790,
     "Ausland": 127030
   },
-  "2005ch-ti": {
+  "200521": {
     "Jahr": 2005,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -167,7 +167,7 @@ const json = `{
     "Inland": 1383275,
     "Ausland": 1155721
   },
-  "2005ch-vd": {
+  "200522": {
     "Jahr": 2005,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -175,7 +175,7 @@ const json = `{
     "Inland": 872962,
     "Ausland": 1467134
   },
-  "2005ch-vs": {
+  "200523": {
     "Jahr": 2005,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -183,7 +183,7 @@ const json = `{
     "Inland": 1995703,
     "Ausland": 2206056
   },
-  "2005ch-ne": {
+  "200524": {
     "Jahr": 2005,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -191,7 +191,7 @@ const json = `{
     "Inland": 98769,
     "Ausland": 104217
   },
-  "2005ch-ge": {
+  "200525": {
     "Jahr": 2005,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -199,7 +199,7 @@ const json = `{
     "Inland": 405296,
     "Ausland": 1974499
   },
-  "2005ch-ju": {
+  "200526": {
     "Jahr": 2005,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -207,7 +207,7 @@ const json = `{
     "Inland": 64636,
     "Ausland": 10160
   },
-  "2006ch-zh": {
+  "200601": {
     "Jahr": 2006,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -215,7 +215,7 @@ const json = `{
     "Inland": 1076347,
     "Ausland": 2774062
   },
-  "2006ch-be": {
+  "200602": {
     "Jahr": 2006,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -223,7 +223,7 @@ const json = `{
     "Inland": 2281779,
     "Ausland": 2689890
   },
-  "2006ch-lu": {
+  "200603": {
     "Jahr": 2006,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -231,7 +231,7 @@ const json = `{
     "Inland": 590710,
     "Ausland": 998330
   },
-  "2006ch-ur": {
+  "200604": {
     "Jahr": 2006,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -239,7 +239,7 @@ const json = `{
     "Inland": 77433,
     "Ausland": 153310
   },
-  "2006ch-sz": {
+  "200605": {
     "Jahr": 2006,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -247,7 +247,7 @@ const json = `{
     "Inland": 375327,
     "Ausland": 204499
   },
-  "2006ch-ow": {
+  "200606": {
     "Jahr": 2006,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -255,7 +255,7 @@ const json = `{
     "Inland": 248747,
     "Ausland": 392214
   },
-  "2006ch-ni": {
+  "200607": {
     "Jahr": 2006,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -263,7 +263,7 @@ const json = `{
     "Inland": 115155,
     "Ausland": 139292
   },
-  "2006ch-gl": {
+  "200608": {
     "Jahr": 2006,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -271,7 +271,7 @@ const json = `{
     "Inland": 114666,
     "Ausland": 28436
   },
-  "2006ch-zg": {
+  "200609": {
     "Jahr": 2006,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -279,7 +279,7 @@ const json = `{
     "Inland": 129637,
     "Ausland": 117991
   },
-  "2006ch-fr": {
+  "200610": {
     "Jahr": 2006,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -287,7 +287,7 @@ const json = `{
     "Inland": 213762,
     "Ausland": 146187
   },
-  "2006ch-so": {
+  "200611": {
     "Jahr": 2006,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -295,7 +295,7 @@ const json = `{
     "Inland": 176354,
     "Ausland": 143682
   },
-  "2006ch-bs": {
+  "200612": {
     "Jahr": 2006,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -303,7 +303,7 @@ const json = `{
     "Inland": 227509,
     "Ausland": 659287
   },
-  "2006ch-bl": {
+  "200613": {
     "Jahr": 2006,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -311,7 +311,7 @@ const json = `{
     "Inland": 111690,
     "Ausland": 107521
   },
-  "2006ch-sh": {
+  "200614": {
     "Jahr": 2006,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -319,7 +319,7 @@ const json = `{
     "Inland": 48817,
     "Ausland": 65853
   },
-  "2006ch-ar": {
+  "200615": {
     "Jahr": 2006,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -327,7 +327,7 @@ const json = `{
     "Inland": 109578,
     "Ausland": 39513
   },
-  "2006ch-ai": {
+  "200616": {
     "Jahr": 2006,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -335,7 +335,7 @@ const json = `{
     "Inland": 128021,
     "Ausland": 27473
   },
-  "2006ch-sg": {
+  "200617": {
     "Jahr": 2006,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -343,7 +343,7 @@ const json = `{
     "Inland": 616137,
     "Ausland": 421939
   },
-  "2006ch-gr": {
+  "200618": {
     "Jahr": 2006,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -351,7 +351,7 @@ const json = `{
     "Inland": 2893953,
     "Ausland": 2812582
   },
-  "2006ch-ag": {
+  "200619": {
     "Jahr": 2006,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -359,7 +359,7 @@ const json = `{
     "Inland": 321486,
     "Ausland": 329399
   },
-  "2006ch-tg": {
+  "200620": {
     "Jahr": 2006,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -367,7 +367,7 @@ const json = `{
     "Inland": 240869,
     "Ausland": 143571
   },
-  "2006ch-ti": {
+  "200621": {
     "Jahr": 2006,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -375,7 +375,7 @@ const json = `{
     "Inland": 1523597,
     "Ausland": 1183052
   },
-  "2006ch-vd": {
+  "200622": {
     "Jahr": 2006,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -383,7 +383,7 @@ const json = `{
     "Inland": 891479,
     "Ausland": 1561441
   },
-  "2006ch-vs": {
+  "200623": {
     "Jahr": 2006,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -391,7 +391,7 @@ const json = `{
     "Inland": 1990979,
     "Ausland": 2259667
   },
-  "2006ch-ne": {
+  "200624": {
     "Jahr": 2006,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -399,7 +399,7 @@ const json = `{
     "Inland": 107567,
     "Ausland": 102428
   },
-  "2006ch-ge": {
+  "200625": {
     "Jahr": 2006,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -407,7 +407,7 @@ const json = `{
     "Inland": 520467,
     "Ausland": 2132700
   },
-  "2006ch-ju": {
+  "200626": {
     "Jahr": 2006,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -415,7 +415,7 @@ const json = `{
     "Inland": 71911,
     "Ausland": 10130
   },
-  "2007ch-zh": {
+  "200701": {
     "Jahr": 2007,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -423,7 +423,7 @@ const json = `{
     "Inland": 1151235,
     "Ausland": 2991289
   },
-  "2007ch-be": {
+  "200702": {
     "Jahr": 2007,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -431,7 +431,7 @@ const json = `{
     "Inland": 2238688,
     "Ausland": 2764755
   },
-  "2007ch-lu": {
+  "200703": {
     "Jahr": 2007,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -439,7 +439,7 @@ const json = `{
     "Inland": 618499,
     "Ausland": 1119754
   },
-  "2007ch-ur": {
+  "200704": {
     "Jahr": 2007,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -447,7 +447,7 @@ const json = `{
     "Inland": 88847,
     "Ausland": 169465
   },
-  "2007ch-sz": {
+  "200705": {
     "Jahr": 2007,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -455,7 +455,7 @@ const json = `{
     "Inland": 390711,
     "Ausland": 241013
   },
-  "2007ch-ow": {
+  "200706": {
     "Jahr": 2007,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -463,7 +463,7 @@ const json = `{
     "Inland": 253849,
     "Ausland": 383518
   },
-  "2007ch-ni": {
+  "200707": {
     "Jahr": 2007,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -471,7 +471,7 @@ const json = `{
     "Inland": 101159,
     "Ausland": 135802
   },
-  "2007ch-gl": {
+  "200708": {
     "Jahr": 2007,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -479,7 +479,7 @@ const json = `{
     "Inland": 109441,
     "Ausland": 28645
   },
-  "2007ch-zg": {
+  "200709": {
     "Jahr": 2007,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -487,7 +487,7 @@ const json = `{
     "Inland": 136691,
     "Ausland": 128485
   },
-  "2007ch-fr": {
+  "200710": {
     "Jahr": 2007,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -495,7 +495,7 @@ const json = `{
     "Inland": 227665,
     "Ausland": 158445
   },
-  "2007ch-so": {
+  "200711": {
     "Jahr": 2007,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -503,7 +503,7 @@ const json = `{
     "Inland": 196163,
     "Ausland": 173691
   },
-  "2007ch-bs": {
+  "200712": {
     "Jahr": 2007,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -511,7 +511,7 @@ const json = `{
     "Inland": 259655,
     "Ausland": 684167
   },
-  "2007ch-bl": {
+  "200713": {
     "Jahr": 2007,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -519,7 +519,7 @@ const json = `{
     "Inland": 109647,
     "Ausland": 106151
   },
-  "2007ch-sh": {
+  "200714": {
     "Jahr": 2007,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -527,7 +527,7 @@ const json = `{
     "Inland": 51977,
     "Ausland": 70676
   },
-  "2007ch-ar": {
+  "200715": {
     "Jahr": 2007,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -535,7 +535,7 @@ const json = `{
     "Inland": 108439,
     "Ausland": 41193
   },
-  "2007ch-ai": {
+  "200716": {
     "Jahr": 2007,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -543,7 +543,7 @@ const json = `{
     "Inland": 132851,
     "Ausland": 28060
   },
-  "2007ch-sg": {
+  "200717": {
     "Jahr": 2007,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -551,7 +551,7 @@ const json = `{
     "Inland": 616212,
     "Ausland": 466901
   },
-  "2007ch-gr": {
+  "200718": {
     "Jahr": 2007,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -559,7 +559,7 @@ const json = `{
     "Inland": 2918781,
     "Ausland": 2948994
   },
-  "2007ch-ag": {
+  "200719": {
     "Jahr": 2007,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -567,7 +567,7 @@ const json = `{
     "Inland": 352105,
     "Ausland": 363296
   },
-  "2007ch-tg": {
+  "200720": {
     "Jahr": 2007,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -575,7 +575,7 @@ const json = `{
     "Inland": 241152,
     "Ausland": 156165
   },
-  "2007ch-ti": {
+  "200721": {
     "Jahr": 2007,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -583,7 +583,7 @@ const json = `{
     "Inland": 1502817,
     "Ausland": 1252834
   },
-  "2007ch-vd": {
+  "200722": {
     "Jahr": 2007,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -591,7 +591,7 @@ const json = `{
     "Inland": 891628,
     "Ausland": 1643378
   },
-  "2007ch-vs": {
+  "200723": {
     "Jahr": 2007,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -599,7 +599,7 @@ const json = `{
     "Inland": 2008790,
     "Ausland": 2415939
   },
-  "2007ch-ne": {
+  "200724": {
     "Jahr": 2007,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -607,7 +607,7 @@ const json = `{
     "Inland": 109821,
     "Ausland": 119101
   },
-  "2007ch-ge": {
+  "200725": {
     "Jahr": 2007,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -615,7 +615,7 @@ const json = `{
     "Inland": 561723,
     "Ausland": 2315889
   },
-  "2007ch-ju": {
+  "200726": {
     "Jahr": 2007,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -623,7 +623,7 @@ const json = `{
     "Inland": 68519,
     "Ausland": 10129
   },
-  "2008ch-zh": {
+  "200801": {
     "Jahr": 2008,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -631,7 +631,7 @@ const json = `{
     "Inland": 1113595,
     "Ausland": 3052245
   },
-  "2008ch-be": {
+  "200802": {
     "Jahr": 2008,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -639,7 +639,7 @@ const json = `{
     "Inland": 2306503,
     "Ausland": 2836144
   },
-  "2008ch-lu": {
+  "200803": {
     "Jahr": 2008,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -647,7 +647,7 @@ const json = `{
     "Inland": 644285,
     "Ausland": 1110079
   },
-  "2008ch-ur": {
+  "200804": {
     "Jahr": 2008,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -655,7 +655,7 @@ const json = `{
     "Inland": 86266,
     "Ausland": 176128
   },
-  "2008ch-sz": {
+  "200805": {
     "Jahr": 2008,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -663,7 +663,7 @@ const json = `{
     "Inland": 394083,
     "Ausland": 270155
   },
-  "2008ch-ow": {
+  "200806": {
     "Jahr": 2008,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -671,7 +671,7 @@ const json = `{
     "Inland": 252727,
     "Ausland": 400289
   },
-  "2008ch-ni": {
+  "200807": {
     "Jahr": 2008,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -679,7 +679,7 @@ const json = `{
     "Inland": 97471,
     "Ausland": 131628
   },
-  "2008ch-gl": {
+  "200808": {
     "Jahr": 2008,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -687,7 +687,7 @@ const json = `{
     "Inland": 117510,
     "Ausland": 29271
   },
-  "2008ch-zg": {
+  "200809": {
     "Jahr": 2008,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -695,7 +695,7 @@ const json = `{
     "Inland": 136711,
     "Ausland": 134058
   },
-  "2008ch-fr": {
+  "200810": {
     "Jahr": 2008,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -703,7 +703,7 @@ const json = `{
     "Inland": 241158,
     "Ausland": 162603
   },
-  "2008ch-so": {
+  "200811": {
     "Jahr": 2008,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -711,7 +711,7 @@ const json = `{
     "Inland": 195387,
     "Ausland": 177670
   },
-  "2008ch-bs": {
+  "200812": {
     "Jahr": 2008,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -719,7 +719,7 @@ const json = `{
     "Inland": 298886,
     "Ausland": 710027
   },
-  "2008ch-bl": {
+  "200813": {
     "Jahr": 2008,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -727,7 +727,7 @@ const json = `{
     "Inland": 127429,
     "Ausland": 115219
   },
-  "2008ch-sh": {
+  "200814": {
     "Jahr": 2008,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -735,7 +735,7 @@ const json = `{
     "Inland": 56581,
     "Ausland": 75091
   },
-  "2008ch-ar": {
+  "200815": {
     "Jahr": 2008,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -743,7 +743,7 @@ const json = `{
     "Inland": 113868,
     "Ausland": 46917
   },
-  "2008ch-ai": {
+  "200816": {
     "Jahr": 2008,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -751,7 +751,7 @@ const json = `{
     "Inland": 138916,
     "Ausland": 30671
   },
-  "2008ch-sg": {
+  "200817": {
     "Jahr": 2008,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -759,7 +759,7 @@ const json = `{
     "Inland": 612735,
     "Ausland": 474740
   },
-  "2008ch-gr": {
+  "200818": {
     "Jahr": 2008,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -767,7 +767,7 @@ const json = `{
     "Inland": 3101202,
     "Ausland": 3138646
   },
-  "2008ch-ag": {
+  "200819": {
     "Jahr": 2008,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -775,7 +775,7 @@ const json = `{
     "Inland": 358576,
     "Ausland": 369177
   },
-  "2008ch-tg": {
+  "200820": {
     "Jahr": 2008,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -783,7 +783,7 @@ const json = `{
     "Inland": 249070,
     "Ausland": 154053
   },
-  "2008ch-ti": {
+  "200821": {
     "Jahr": 2008,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -791,7 +791,7 @@ const json = `{
     "Inland": 1420450,
     "Ausland": 1246643
   },
-  "2008ch-vd": {
+  "200822": {
     "Jahr": 2008,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -799,7 +799,7 @@ const json = `{
     "Inland": 917154,
     "Ausland": 1719381
   },
-  "2008ch-vs": {
+  "200823": {
     "Jahr": 2008,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -807,7 +807,7 @@ const json = `{
     "Inland": 2087166,
     "Ausland": 2502862
   },
-  "2008ch-ne": {
+  "200824": {
     "Jahr": 2008,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -815,7 +815,7 @@ const json = `{
     "Inland": 111164,
     "Ausland": 127350
   },
-  "2008ch-ge": {
+  "200825": {
     "Jahr": 2008,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -823,7 +823,7 @@ const json = `{
     "Inland": 578689,
     "Ausland": 2305421
   },
-  "2008ch-ju": {
+  "200826": {
     "Jahr": 2008,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -831,7 +831,7 @@ const json = `{
     "Inland": 67891,
     "Ausland": 11828
   },
-  "2009ch-zh": {
+  "200901": {
     "Jahr": 2009,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -839,7 +839,7 @@ const json = `{
     "Inland": 1056862,
     "Ausland": 2953887
   },
-  "2009ch-be": {
+  "200902": {
     "Jahr": 2009,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -847,7 +847,7 @@ const json = `{
     "Inland": 2306090,
     "Ausland": 2608776
   },
-  "2009ch-lu": {
+  "200903": {
     "Jahr": 2009,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -855,7 +855,7 @@ const json = `{
     "Inland": 589524,
     "Ausland": 1051029
   },
-  "2009ch-ur": {
+  "200904": {
     "Jahr": 2009,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -863,7 +863,7 @@ const json = `{
     "Inland": 86244,
     "Ausland": 169373
   },
-  "2009ch-sz": {
+  "200905": {
     "Jahr": 2009,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -871,7 +871,7 @@ const json = `{
     "Inland": 371779,
     "Ausland": 248454
   },
-  "2009ch-ow": {
+  "200906": {
     "Jahr": 2009,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -879,7 +879,7 @@ const json = `{
     "Inland": 255545,
     "Ausland": 346060
   },
-  "2009ch-ni": {
+  "200907": {
     "Jahr": 2009,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -887,7 +887,7 @@ const json = `{
     "Inland": 89984,
     "Ausland": 119226
   },
-  "2009ch-gl": {
+  "200908": {
     "Jahr": 2009,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -895,7 +895,7 @@ const json = `{
     "Inland": 119596,
     "Ausland": 29374
   },
-  "2009ch-zg": {
+  "200909": {
     "Jahr": 2009,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -903,7 +903,7 @@ const json = `{
     "Inland": 128123,
     "Ausland": 124965
   },
-  "2009ch-fr": {
+  "200910": {
     "Jahr": 2009,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -911,7 +911,7 @@ const json = `{
     "Inland": 243666,
     "Ausland": 149231
   },
-  "2009ch-so": {
+  "200911": {
     "Jahr": 2009,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -919,7 +919,7 @@ const json = `{
     "Inland": 181194,
     "Ausland": 172580
   },
-  "2009ch-bs": {
+  "200912": {
     "Jahr": 2009,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -927,7 +927,7 @@ const json = `{
     "Inland": 314033,
     "Ausland": 716309
   },
-  "2009ch-bl": {
+  "200913": {
     "Jahr": 2009,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -935,7 +935,7 @@ const json = `{
     "Inland": 140494,
     "Ausland": 103144
   },
-  "2009ch-sh": {
+  "200914": {
     "Jahr": 2009,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -943,7 +943,7 @@ const json = `{
     "Inland": 52054,
     "Ausland": 62485
   },
-  "2009ch-ar": {
+  "200915": {
     "Jahr": 2009,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -951,7 +951,7 @@ const json = `{
     "Inland": 113997,
     "Ausland": 46920
   },
-  "2009ch-ai": {
+  "200916": {
     "Jahr": 2009,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -959,7 +959,7 @@ const json = `{
     "Inland": 140484,
     "Ausland": 30266
   },
-  "2009ch-sg": {
+  "200917": {
     "Jahr": 2009,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -967,7 +967,7 @@ const json = `{
     "Inland": 595468,
     "Ausland": 451401
   },
-  "2009ch-gr": {
+  "200918": {
     "Jahr": 2009,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -975,7 +975,7 @@ const json = `{
     "Inland": 2950163,
     "Ausland": 2935273
   },
-  "2009ch-ag": {
+  "200919": {
     "Jahr": 2009,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -983,7 +983,7 @@ const json = `{
     "Inland": 337352,
     "Ausland": 340411
   },
-  "2009ch-tg": {
+  "200920": {
     "Jahr": 2009,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -991,7 +991,7 @@ const json = `{
     "Inland": 240108,
     "Ausland": 150782
   },
-  "2009ch-ti": {
+  "200921": {
     "Jahr": 2009,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -999,7 +999,7 @@ const json = `{
     "Inland": 1441166,
     "Ausland": 1166426
   },
-  "2009ch-vd": {
+  "200922": {
     "Jahr": 2009,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -1007,7 +1007,7 @@ const json = `{
     "Inland": 882908,
     "Ausland": 1606741
   },
-  "2009ch-vs": {
+  "200923": {
     "Jahr": 2009,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -1015,7 +1015,7 @@ const json = `{
     "Inland": 2053261,
     "Ausland": 2339066
   },
-  "2009ch-ne": {
+  "200924": {
     "Jahr": 2009,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -1023,7 +1023,7 @@ const json = `{
     "Inland": 113644,
     "Ausland": 113296
   },
-  "2009ch-ge": {
+  "200925": {
     "Jahr": 2009,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -1031,7 +1031,7 @@ const json = `{
     "Inland": 544105,
     "Ausland": 2116486
   },
-  "2009ch-ju": {
+  "200926": {
     "Jahr": 2009,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -1039,7 +1039,7 @@ const json = `{
     "Inland": 76624,
     "Ausland": 12464
   },
-  "2010ch-zh": {
+  "201001": {
     "Jahr": 2010,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -1047,7 +1047,7 @@ const json = `{
     "Inland": 1196219,
     "Ausland": 3163976
   },
-  "2010ch-be": {
+  "201002": {
     "Jahr": 2010,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -1055,7 +1055,7 @@ const json = `{
     "Inland": 2279621,
     "Ausland": 2652470
   },
-  "2010ch-lu": {
+  "201003": {
     "Jahr": 2010,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -1063,7 +1063,7 @@ const json = `{
     "Inland": 625153,
     "Ausland": 1120400
   },
-  "2010ch-ur": {
+  "201004": {
     "Jahr": 2010,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -1071,7 +1071,7 @@ const json = `{
     "Inland": 83245,
     "Ausland": 163245
   },
-  "2010ch-sz": {
+  "201005": {
     "Jahr": 2010,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -1079,7 +1079,7 @@ const json = `{
     "Inland": 388822,
     "Ausland": 256801
   },
-  "2010ch-ow": {
+  "201006": {
     "Jahr": 2010,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -1087,7 +1087,7 @@ const json = `{
     "Inland": 260192,
     "Ausland": 367594
   },
-  "2010ch-ni": {
+  "201007": {
     "Jahr": 2010,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -1095,7 +1095,7 @@ const json = `{
     "Inland": 90403,
     "Ausland": 122245
   },
-  "2010ch-gl": {
+  "201008": {
     "Jahr": 2010,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -1103,7 +1103,7 @@ const json = `{
     "Inland": 118219,
     "Ausland": 29531
   },
-  "2010ch-zg": {
+  "201009": {
     "Jahr": 2010,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -1111,7 +1111,7 @@ const json = `{
     "Inland": 133315,
     "Ausland": 142487
   },
-  "2010ch-fr": {
+  "201010": {
     "Jahr": 2010,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -1119,7 +1119,7 @@ const json = `{
     "Inland": 259321,
     "Ausland": 143775
   },
-  "2010ch-so": {
+  "201011": {
     "Jahr": 2010,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -1127,7 +1127,7 @@ const json = `{
     "Inland": 198463,
     "Ausland": 168823
   },
-  "2010ch-bs": {
+  "201012": {
     "Jahr": 2010,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -1135,7 +1135,7 @@ const json = `{
     "Inland": 303631,
     "Ausland": 767450
   },
-  "2010ch-bl": {
+  "201013": {
     "Jahr": 2010,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -1143,7 +1143,7 @@ const json = `{
     "Inland": 148142,
     "Ausland": 115375
   },
-  "2010ch-sh": {
+  "201014": {
     "Jahr": 2010,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -1151,7 +1151,7 @@ const json = `{
     "Inland": 53797,
     "Ausland": 66780
   },
-  "2010ch-ar": {
+  "201015": {
     "Jahr": 2010,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -1159,7 +1159,7 @@ const json = `{
     "Inland": 107992,
     "Ausland": 43836
   },
-  "2010ch-ai": {
+  "201016": {
     "Jahr": 2010,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -1167,7 +1167,7 @@ const json = `{
     "Inland": 136644,
     "Ausland": 28553
   },
-  "2010ch-sg": {
+  "201017": {
     "Jahr": 2010,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -1175,7 +1175,7 @@ const json = `{
     "Inland": 600990,
     "Ausland": 486807
   },
-  "2010ch-gr": {
+  "201018": {
     "Jahr": 2010,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -1183,7 +1183,7 @@ const json = `{
     "Inland": 2951574,
     "Ausland": 2855881
   },
-  "2010ch-ag": {
+  "201019": {
     "Jahr": 2010,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -1191,7 +1191,7 @@ const json = `{
     "Inland": 358808,
     "Ausland": 327380
   },
-  "2010ch-tg": {
+  "201020": {
     "Jahr": 2010,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -1199,7 +1199,7 @@ const json = `{
     "Inland": 253303,
     "Ausland": 157319
   },
-  "2010ch-ti": {
+  "201021": {
     "Jahr": 2010,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -1207,7 +1207,7 @@ const json = `{
     "Inland": 1396104,
     "Ausland": 1091060
   },
-  "2010ch-vd": {
+  "201022": {
     "Jahr": 2010,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -1215,7 +1215,7 @@ const json = `{
     "Inland": 989600,
     "Ausland": 1617134
   },
-  "2010ch-vs": {
+  "201023": {
     "Jahr": 2010,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -1223,7 +1223,7 @@ const json = `{
     "Inland": 2052731,
     "Ausland": 2211878
   },
-  "2010ch-ne": {
+  "201024": {
     "Jahr": 2010,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -1231,7 +1231,7 @@ const json = `{
     "Inland": 115033,
     "Ausland": 120619
   },
-  "2010ch-ge": {
+  "201025": {
     "Jahr": 2010,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -1239,7 +1239,7 @@ const json = `{
     "Inland": 591729,
     "Ausland": 2208793
   },
-  "2010ch-ju": {
+  "201026": {
     "Jahr": 2010,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -1247,7 +1247,7 @@ const json = `{
     "Inland": 72253,
     "Ausland": 12296
   },
-  "2011ch-zh": {
+  "201101": {
     "Jahr": 2011,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -1255,7 +1255,7 @@ const json = `{
     "Inland": 1242799,
     "Ausland": 3217787
   },
-  "2011ch-be": {
+  "201102": {
     "Jahr": 2011,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -1263,7 +1263,7 @@ const json = `{
     "Inland": 2324136,
     "Ausland": 2561000
   },
-  "2011ch-lu": {
+  "201103": {
     "Jahr": 2011,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -1271,7 +1271,7 @@ const json = `{
     "Inland": 663046,
     "Ausland": 1071471
   },
-  "2011ch-ur": {
+  "201104": {
     "Jahr": 2011,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -1279,7 +1279,7 @@ const json = `{
     "Inland": 91789,
     "Ausland": 159591
   },
-  "2011ch-sz": {
+  "201105": {
     "Jahr": 2011,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -1287,7 +1287,7 @@ const json = `{
     "Inland": 385569,
     "Ausland": 255039
   },
-  "2011ch-ow": {
+  "201106": {
     "Jahr": 2011,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -1295,7 +1295,7 @@ const json = `{
     "Inland": 250020,
     "Ausland": 337325
   },
-  "2011ch-ni": {
+  "201107": {
     "Jahr": 2011,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -1303,7 +1303,7 @@ const json = `{
     "Inland": 94392,
     "Ausland": 120926
   },
-  "2011ch-gl": {
+  "201108": {
     "Jahr": 2011,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -1311,7 +1311,7 @@ const json = `{
     "Inland": 105645,
     "Ausland": 25906
   },
-  "2011ch-zg": {
+  "201109": {
     "Jahr": 2011,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -1319,7 +1319,7 @@ const json = `{
     "Inland": 139919,
     "Ausland": 159397
   },
-  "2011ch-fr": {
+  "201110": {
     "Jahr": 2011,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -1327,7 +1327,7 @@ const json = `{
     "Inland": 277323,
     "Ausland": 153221
   },
-  "2011ch-so": {
+  "201111": {
     "Jahr": 2011,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -1335,7 +1335,7 @@ const json = `{
     "Inland": 182367,
     "Ausland": 173565
   },
-  "2011ch-bs": {
+  "201112": {
     "Jahr": 2011,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -1343,7 +1343,7 @@ const json = `{
     "Inland": 306478,
     "Ausland": 772825
   },
-  "2011ch-bl": {
+  "201113": {
     "Jahr": 2011,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -1351,7 +1351,7 @@ const json = `{
     "Inland": 141470,
     "Ausland": 129021
   },
-  "2011ch-sh": {
+  "201114": {
     "Jahr": 2011,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -1359,7 +1359,7 @@ const json = `{
     "Inland": 60965,
     "Ausland": 70951
   },
-  "2011ch-ar": {
+  "201115": {
     "Jahr": 2011,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -1367,7 +1367,7 @@ const json = `{
     "Inland": 101773,
     "Ausland": 40405
   },
-  "2011ch-ai": {
+  "201116": {
     "Jahr": 2011,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -1375,7 +1375,7 @@ const json = `{
     "Inland": 136694,
     "Ausland": 25271
   },
-  "2011ch-sg": {
+  "201117": {
     "Jahr": 2011,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -1383,7 +1383,7 @@ const json = `{
     "Inland": 579636,
     "Ausland": 473721
   },
-  "2011ch-gr": {
+  "201118": {
     "Jahr": 2011,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -1391,7 +1391,7 @@ const json = `{
     "Inland": 2863056,
     "Ausland": 2502566
   },
-  "2011ch-ag": {
+  "201119": {
     "Jahr": 2011,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -1399,7 +1399,7 @@ const json = `{
     "Inland": 359014,
     "Ausland": 338081
   },
-  "2011ch-tg": {
+  "201120": {
     "Jahr": 2011,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -1407,7 +1407,7 @@ const json = `{
     "Inland": 249476,
     "Ausland": 157922
   },
-  "2011ch-ti": {
+  "201121": {
     "Jahr": 2011,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -1415,7 +1415,7 @@ const json = `{
     "Inland": 1352150,
     "Ausland": 1019953
   },
-  "2011ch-vd": {
+  "201122": {
     "Jahr": 2011,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -1423,7 +1423,7 @@ const json = `{
     "Inland": 990182,
     "Ausland": 1573967
   },
-  "2011ch-vs": {
+  "201123": {
     "Jahr": 2011,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -1431,7 +1431,7 @@ const json = `{
     "Inland": 2057619,
     "Ausland": 2020195
   },
-  "2011ch-ne": {
+  "201124": {
     "Jahr": 2011,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -1439,7 +1439,7 @@ const json = `{
     "Inland": 115886,
     "Ausland": 113773
   },
-  "2011ch-ge": {
+  "201125": {
     "Jahr": 2011,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -1447,7 +1447,7 @@ const json = `{
     "Inland": 593220,
     "Ausland": 2245009
   },
-  "2011ch-ju": {
+  "201126": {
     "Jahr": 2011,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -1455,7 +1455,7 @@ const json = `{
     "Inland": 87743,
     "Ausland": 15001
   },
-  "2012ch-zh": {
+  "201201": {
     "Jahr": 2012,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -1463,7 +1463,7 @@ const json = `{
     "Inland": 1247390,
     "Ausland": 3332292
   },
-  "2012ch-be": {
+  "201202": {
     "Jahr": 2012,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -1471,7 +1471,7 @@ const json = `{
     "Inland": 2245558,
     "Ausland": 2476046
   },
-  "2012ch-lu": {
+  "201203": {
     "Jahr": 2012,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -1479,7 +1479,7 @@ const json = `{
     "Inland": 662280,
     "Ausland": 1095229
   },
-  "2012ch-ur": {
+  "201204": {
     "Jahr": 2012,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -1487,7 +1487,7 @@ const json = `{
     "Inland": 80645,
     "Ausland": 147346
   },
-  "2012ch-sz": {
+  "201205": {
     "Jahr": 2012,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -1495,7 +1495,7 @@ const json = `{
     "Inland": 376259,
     "Ausland": 218385
   },
-  "2012ch-ow": {
+  "201206": {
     "Jahr": 2012,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -1503,7 +1503,7 @@ const json = `{
     "Inland": 264278,
     "Ausland": 318140
   },
-  "2012ch-ni": {
+  "201207": {
     "Jahr": 2012,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -1511,7 +1511,7 @@ const json = `{
     "Inland": 95594,
     "Ausland": 112878
   },
-  "2012ch-gl": {
+  "201208": {
     "Jahr": 2012,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -1519,7 +1519,7 @@ const json = `{
     "Inland": 102048,
     "Ausland": 22172
   },
-  "2012ch-zg": {
+  "201209": {
     "Jahr": 2012,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -1527,7 +1527,7 @@ const json = `{
     "Inland": 133114,
     "Ausland": 153994
   },
-  "2012ch-fr": {
+  "201210": {
     "Jahr": 2012,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -1535,7 +1535,7 @@ const json = `{
     "Inland": 288079,
     "Ausland": 168755
   },
-  "2012ch-so": {
+  "201211": {
     "Jahr": 2012,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -1543,7 +1543,7 @@ const json = `{
     "Inland": 186545,
     "Ausland": 176578
   },
-  "2012ch-bs": {
+  "201212": {
     "Jahr": 2012,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -1551,7 +1551,7 @@ const json = `{
     "Inland": 313411,
     "Ausland": 768496
   },
-  "2012ch-bl": {
+  "201213": {
     "Jahr": 2012,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -1559,7 +1559,7 @@ const json = `{
     "Inland": 141388,
     "Ausland": 126761
   },
-  "2012ch-sh": {
+  "201214": {
     "Jahr": 2012,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -1567,7 +1567,7 @@ const json = `{
     "Inland": 63981,
     "Ausland": 66271
   },
-  "2012ch-ar": {
+  "201215": {
     "Jahr": 2012,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -1575,7 +1575,7 @@ const json = `{
     "Inland": 90712,
     "Ausland": 36258
   },
-  "2012ch-ai": {
+  "201216": {
     "Jahr": 2012,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -1583,7 +1583,7 @@ const json = `{
     "Inland": 134926,
     "Ausland": 25612
   },
-  "2012ch-sg": {
+  "201217": {
     "Jahr": 2012,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -1591,7 +1591,7 @@ const json = `{
     "Inland": 567129,
     "Ausland": 468975
   },
-  "2012ch-gr": {
+  "201218": {
     "Jahr": 2012,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -1599,7 +1599,7 @@ const json = `{
     "Inland": 2852180,
     "Ausland": 2212015
   },
-  "2012ch-ag": {
+  "201219": {
     "Jahr": 2012,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -1607,7 +1607,7 @@ const json = `{
     "Inland": 353799,
     "Ausland": 333517
   },
-  "2012ch-tg": {
+  "201220": {
     "Jahr": 2012,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -1615,7 +1615,7 @@ const json = `{
     "Inland": 253459,
     "Ausland": 159910
   },
-  "2012ch-ti": {
+  "201221": {
     "Jahr": 2012,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -1623,7 +1623,7 @@ const json = `{
     "Inland": 1339668,
     "Ausland": 960355
   },
-  "2012ch-vd": {
+  "201222": {
     "Jahr": 2012,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -1631,7 +1631,7 @@ const json = `{
     "Inland": 1002296,
     "Ausland": 1452713
   },
-  "2012ch-vs": {
+  "201223": {
     "Jahr": 2012,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -1639,7 +1639,7 @@ const json = `{
     "Inland": 2136657,
     "Ausland": 1849512
   },
-  "2012ch-ne": {
+  "201224": {
     "Jahr": 2012,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -1647,7 +1647,7 @@ const json = `{
     "Inland": 126158,
     "Ausland": 107934
   },
-  "2012ch-ge": {
+  "201225": {
     "Jahr": 2012,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -1655,7 +1655,7 @@ const json = `{
     "Inland": 543361,
     "Ausland": 2268719
   },
-  "2012ch-ju": {
+  "201226": {
     "Jahr": 2012,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -1663,7 +1663,7 @@ const json = `{
     "Inland": 89120,
     "Ausland": 17375
   },
-  "2013ch-zh": {
+  "201301": {
     "Jahr": 2013,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -1671,7 +1671,7 @@ const json = `{
     "Inland": 1272061,
     "Ausland": 3437258
   },
-  "2013ch-be": {
+  "201302": {
     "Jahr": 2013,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -1679,7 +1679,7 @@ const json = `{
     "Inland": 2266565,
     "Ausland": 2653067
   },
-  "2013ch-lu": {
+  "201303": {
     "Jahr": 2013,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -1687,7 +1687,7 @@ const json = `{
     "Inland": 674238,
     "Ausland": 1155006
   },
-  "2013ch-ur": {
+  "201304": {
     "Jahr": 2013,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -1695,7 +1695,7 @@ const json = `{
     "Inland": 80475,
     "Ausland": 147064
   },
-  "2013ch-sz": {
+  "201305": {
     "Jahr": 2013,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -1703,7 +1703,7 @@ const json = `{
     "Inland": 387306,
     "Ausland": 217779
   },
-  "2013ch-ow": {
+  "201306": {
     "Jahr": 2013,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -1711,7 +1711,7 @@ const json = `{
     "Inland": 252972,
     "Ausland": 351998
   },
-  "2013ch-ni": {
+  "201307": {
     "Jahr": 2013,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -1719,7 +1719,7 @@ const json = `{
     "Inland": 87359,
     "Ausland": 115688
   },
-  "2013ch-gl": {
+  "201308": {
     "Jahr": 2013,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -1727,7 +1727,7 @@ const json = `{
     "Inland": 104614,
     "Ausland": 22475
   },
-  "2013ch-zg": {
+  "201309": {
     "Jahr": 2013,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -1735,7 +1735,7 @@ const json = `{
     "Inland": 142480,
     "Ausland": 164974
   },
-  "2013ch-fr": {
+  "201310": {
     "Jahr": 2013,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -1743,7 +1743,7 @@ const json = `{
     "Inland": 293705,
     "Ausland": 179692
   },
-  "2013ch-so": {
+  "201311": {
     "Jahr": 2013,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -1751,7 +1751,7 @@ const json = `{
     "Inland": 194813,
     "Ausland": 189101
   },
-  "2013ch-bs": {
+  "201312": {
     "Jahr": 2013,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -1759,7 +1759,7 @@ const json = `{
     "Inland": 322772,
     "Ausland": 783090
   },
-  "2013ch-bl": {
+  "201313": {
     "Jahr": 2013,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -1767,7 +1767,7 @@ const json = `{
     "Inland": 140037,
     "Ausland": 144883
   },
-  "2013ch-sh": {
+  "201314": {
     "Jahr": 2013,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -1775,7 +1775,7 @@ const json = `{
     "Inland": 59885,
     "Ausland": 68964
   },
-  "2013ch-ar": {
+  "201315": {
     "Jahr": 2013,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -1783,7 +1783,7 @@ const json = `{
     "Inland": 89916,
     "Ausland": 33915
   },
-  "2013ch-ai": {
+  "201316": {
     "Jahr": 2013,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -1791,7 +1791,7 @@ const json = `{
     "Inland": 134751,
     "Ausland": 25350
   },
-  "2013ch-sg": {
+  "201317": {
     "Jahr": 2013,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -1799,7 +1799,7 @@ const json = `{
     "Inland": 567320,
     "Ausland": 456234
   },
-  "2013ch-gr": {
+  "201318": {
     "Jahr": 2013,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -1807,7 +1807,7 @@ const json = `{
     "Inland": 2904212,
     "Ausland": 2256763
   },
-  "2013ch-ag": {
+  "201319": {
     "Jahr": 2013,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -1815,7 +1815,7 @@ const json = `{
     "Inland": 353225,
     "Ausland": 345396
   },
-  "2013ch-tg": {
+  "201320": {
     "Jahr": 2013,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -1823,7 +1823,7 @@ const json = `{
     "Inland": 254849,
     "Ausland": 166157
   },
-  "2013ch-ti": {
+  "201321": {
     "Jahr": 2013,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -1831,7 +1831,7 @@ const json = `{
     "Inland": 1437432,
     "Ausland": 968002
   },
-  "2013ch-vd": {
+  "201322": {
     "Jahr": 2013,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -1839,7 +1839,7 @@ const json = `{
     "Inland": 1079948,
     "Ausland": 1522555
   },
-  "2013ch-vs": {
+  "201323": {
     "Jahr": 2013,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -1847,7 +1847,7 @@ const json = `{
     "Inland": 2020402,
     "Ausland": 1867310
   },
-  "2013ch-ne": {
+  "201324": {
     "Jahr": 2013,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -1855,7 +1855,7 @@ const json = `{
     "Inland": 126035,
     "Ausland": 113230
   },
-  "2013ch-ge": {
+  "201325": {
     "Jahr": 2013,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -1863,7 +1863,7 @@ const json = `{
     "Inland": 553812,
     "Ausland": 2329433
   },
-  "2013ch-ju": {
+  "201326": {
     "Jahr": 2013,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -1871,7 +1871,7 @@ const json = `{
     "Inland": 88042,
     "Ausland": 19273
   },
-  "2014ch-zh": {
+  "201401": {
     "Jahr": 2014,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -1879,7 +1879,7 @@ const json = `{
     "Inland": 1285336,
     "Ausland": 3527533
   },
-  "2014ch-be": {
+  "201402": {
     "Jahr": 2014,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -1887,7 +1887,7 @@ const json = `{
     "Inland": 2234120,
     "Ausland": 2729304
   },
-  "2014ch-lu": {
+  "201403": {
     "Jahr": 2014,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -1895,7 +1895,7 @@ const json = `{
     "Inland": 703155,
     "Ausland": 1216747
   },
-  "2014ch-ur": {
+  "201404": {
     "Jahr": 2014,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -1903,7 +1903,7 @@ const json = `{
     "Inland": 93575,
     "Ausland": 150914
   },
-  "2014ch-sz": {
+  "201405": {
     "Jahr": 2014,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -1911,7 +1911,7 @@ const json = `{
     "Inland": 376888,
     "Ausland": 216043
   },
-  "2014ch-ow": {
+  "201406": {
     "Jahr": 2014,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -1919,7 +1919,7 @@ const json = `{
     "Inland": 254491,
     "Ausland": 370747
   },
-  "2014ch-ni": {
+  "201407": {
     "Jahr": 2014,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -1927,7 +1927,7 @@ const json = `{
     "Inland": 90823,
     "Ausland": 112093
   },
-  "2014ch-gl": {
+  "201408": {
     "Jahr": 2014,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -1935,7 +1935,7 @@ const json = `{
     "Inland": 107615,
     "Ausland": 21283
   },
-  "2014ch-zg": {
+  "201409": {
     "Jahr": 2014,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -1943,7 +1943,7 @@ const json = `{
     "Inland": 153850,
     "Ausland": 182892
   },
-  "2014ch-fr": {
+  "201410": {
     "Jahr": 2014,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -1951,7 +1951,7 @@ const json = `{
     "Inland": 289101,
     "Ausland": 180705
   },
-  "2014ch-so": {
+  "201411": {
     "Jahr": 2014,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -1959,7 +1959,7 @@ const json = `{
     "Inland": 190929,
     "Ausland": 188877
   },
-  "2014ch-bs": {
+  "201412": {
     "Jahr": 2014,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -1967,7 +1967,7 @@ const json = `{
     "Inland": 363756,
     "Ausland": 799182
   },
-  "2014ch-bl": {
+  "201413": {
     "Jahr": 2014,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -1975,7 +1975,7 @@ const json = `{
     "Inland": 158010,
     "Ausland": 151463
   },
-  "2014ch-sh": {
+  "201414": {
     "Jahr": 2014,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -1983,7 +1983,7 @@ const json = `{
     "Inland": 69521,
     "Ausland": 70832
   },
-  "2014ch-ar": {
+  "201415": {
     "Jahr": 2014,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -1991,7 +1991,7 @@ const json = `{
     "Inland": 94377,
     "Ausland": 32882
   },
-  "2014ch-ai": {
+  "201416": {
     "Jahr": 2014,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -1999,7 +1999,7 @@ const json = `{
     "Inland": 142809,
     "Ausland": 25249
   },
-  "2014ch-sg": {
+  "201417": {
     "Jahr": 2014,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -2007,7 +2007,7 @@ const json = `{
     "Inland": 580737,
     "Ausland": 449909
   },
-  "2014ch-gr": {
+  "201418": {
     "Jahr": 2014,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -2015,7 +2015,7 @@ const json = `{
     "Inland": 2868239,
     "Ausland": 2183986
   },
-  "2014ch-ag": {
+  "201419": {
     "Jahr": 2014,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -2023,7 +2023,7 @@ const json = `{
     "Inland": 344227,
     "Ausland": 342198
   },
-  "2014ch-tg": {
+  "201420": {
     "Jahr": 2014,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -2031,7 +2031,7 @@ const json = `{
     "Inland": 274937,
     "Ausland": 162080
   },
-  "2014ch-ti": {
+  "201421": {
     "Jahr": 2014,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -2039,7 +2039,7 @@ const json = `{
     "Inland": 1396905,
     "Ausland": 916134
   },
-  "2014ch-vd": {
+  "201422": {
     "Jahr": 2014,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -2047,7 +2047,7 @@ const json = `{
     "Inland": 1110276,
     "Ausland": 1545420
   },
-  "2014ch-vs": {
+  "201423": {
     "Jahr": 2014,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -2055,7 +2055,7 @@ const json = `{
     "Inland": 2048918,
     "Ausland": 1838427
   },
-  "2014ch-ne": {
+  "201424": {
     "Jahr": 2014,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -2063,7 +2063,7 @@ const json = `{
     "Inland": 125639,
     "Ausland": 115479
   },
-  "2014ch-ge": {
+  "201425": {
     "Jahr": 2014,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -2071,7 +2071,7 @@ const json = `{
     "Inland": 582727,
     "Ausland": 2356441
   },
-  "2014ch-ju": {
+  "201426": {
     "Jahr": 2014,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -2079,7 +2079,7 @@ const json = `{
     "Inland": 85174,
     "Ausland": 20557
   },
-  "2015ch-zh": {
+  "201501": {
     "Jahr": 2015,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -2087,7 +2087,7 @@ const json = `{
     "Inland": 1389192,
     "Ausland": 3622523
   },
-  "2015ch-be": {
+  "201502": {
     "Jahr": 2015,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -2095,7 +2095,7 @@ const json = `{
     "Inland": 2185658,
     "Ausland": 2789278
   },
-  "2015ch-lu": {
+  "201503": {
     "Jahr": 2015,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -2103,7 +2103,7 @@ const json = `{
     "Inland": 723320,
     "Ausland": 1306899
   },
-  "2015ch-ur": {
+  "201504": {
     "Jahr": 2015,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -2111,7 +2111,7 @@ const json = `{
     "Inland": 97148,
     "Ausland": 144246
   },
-  "2015ch-sz": {
+  "201505": {
     "Jahr": 2015,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -2119,7 +2119,7 @@ const json = `{
     "Inland": 380145,
     "Ausland": 211024
   },
-  "2015ch-ow": {
+  "201506": {
     "Jahr": 2015,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -2127,7 +2127,7 @@ const json = `{
     "Inland": 258475,
     "Ausland": 404958
   },
-  "2015ch-ni": {
+  "201507": {
     "Jahr": 2015,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -2135,7 +2135,7 @@ const json = `{
     "Inland": 97632,
     "Ausland": 115074
   },
-  "2015ch-gl": {
+  "201508": {
     "Jahr": 2015,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -2143,7 +2143,7 @@ const json = `{
     "Inland": 107678,
     "Ausland": 20334
   },
-  "2015ch-zg": {
+  "201509": {
     "Jahr": 2015,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -2151,7 +2151,7 @@ const json = `{
     "Inland": 137752,
     "Ausland": 189693
   },
-  "2015ch-fr": {
+  "201510": {
     "Jahr": 2015,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -2159,7 +2159,7 @@ const json = `{
     "Inland": 282718,
     "Ausland": 169150
   },
-  "2015ch-so": {
+  "201511": {
     "Jahr": 2015,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -2167,7 +2167,7 @@ const json = `{
     "Inland": 197911,
     "Ausland": 197759
   },
-  "2015ch-bs": {
+  "201512": {
     "Jahr": 2015,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -2175,7 +2175,7 @@ const json = `{
     "Inland": 398179,
     "Ausland": 803617
   },
-  "2015ch-bl": {
+  "201513": {
     "Jahr": 2015,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -2183,7 +2183,7 @@ const json = `{
     "Inland": 142074,
     "Ausland": 150303
   },
-  "2015ch-sh": {
+  "201514": {
     "Jahr": 2015,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -2191,7 +2191,7 @@ const json = `{
     "Inland": 77942,
     "Ausland": 74238
   },
-  "2015ch-ar": {
+  "201515": {
     "Jahr": 2015,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -2199,7 +2199,7 @@ const json = `{
     "Inland": 90411,
     "Ausland": 27537
   },
-  "2015ch-ai": {
+  "201516": {
     "Jahr": 2015,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -2207,7 +2207,7 @@ const json = `{
     "Inland": 132594,
     "Ausland": 21576
   },
-  "2015ch-sg": {
+  "201517": {
     "Jahr": 2015,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -2215,7 +2215,7 @@ const json = `{
     "Inland": 556765,
     "Ausland": 410866
   },
-  "2015ch-gr": {
+  "201518": {
     "Jahr": 2015,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -2223,7 +2223,7 @@ const json = `{
     "Inland": 2790412,
     "Ausland": 1926889
   },
-  "2015ch-ag": {
+  "201519": {
     "Jahr": 2015,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -2231,7 +2231,7 @@ const json = `{
     "Inland": 357814,
     "Ausland": 344177
   },
-  "2015ch-tg": {
+  "201520": {
     "Jahr": 2015,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -2239,7 +2239,7 @@ const json = `{
     "Inland": 272577,
     "Ausland": 145585
   },
-  "2015ch-ti": {
+  "201521": {
     "Jahr": 2015,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -2247,7 +2247,7 @@ const json = `{
     "Inland": 1347852,
     "Ausland": 832493
   },
-  "2015ch-vd": {
+  "201522": {
     "Jahr": 2015,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -2255,7 +2255,7 @@ const json = `{
     "Inland": 1194524,
     "Ausland": 1479736
   },
-  "2015ch-vs": {
+  "201523": {
     "Jahr": 2015,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -2263,7 +2263,7 @@ const json = `{
     "Inland": 2061095,
     "Ausland": 1677331
   },
-  "2015ch-ne": {
+  "201524": {
     "Jahr": 2015,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -2271,7 +2271,7 @@ const json = `{
     "Inland": 117250,
     "Ausland": 106714
   },
-  "2015ch-ge": {
+  "201525": {
     "Jahr": 2015,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -2279,7 +2279,7 @@ const json = `{
     "Inland": 565854,
     "Ausland": 2386805
   },
-  "2015ch-ju": {
+  "201526": {
     "Jahr": 2015,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -2287,7 +2287,7 @@ const json = `{
     "Inland": 89209,
     "Ausland": 17490
   },
-  "2016ch-zh": {
+  "201601": {
     "Jahr": 2016,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -2295,7 +2295,7 @@ const json = `{
     "Inland": 1422431,
     "Ausland": 3644737
   },
-  "2016ch-be": {
+  "201602": {
     "Jahr": 2016,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -2303,7 +2303,7 @@ const json = `{
     "Inland": 2193912,
     "Ausland": 2719853
   },
-  "2016ch-lu": {
+  "201603": {
     "Jahr": 2016,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -2311,7 +2311,7 @@ const json = `{
     "Inland": 689095,
     "Ausland": 1332563
   },
-  "2016ch-ur": {
+  "201604": {
     "Jahr": 2016,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -2319,7 +2319,7 @@ const json = `{
     "Inland": 104986,
     "Ausland": 138940
   },
-  "2016ch-sz": {
+  "201605": {
     "Jahr": 2016,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -2327,7 +2327,7 @@ const json = `{
     "Inland": 369039,
     "Ausland": 178723
   },
-  "2016ch-ow": {
+  "201606": {
     "Jahr": 2016,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -2335,7 +2335,7 @@ const json = `{
     "Inland": 250285,
     "Ausland": 363387
   },
-  "2016ch-ni": {
+  "201607": {
     "Jahr": 2016,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -2343,7 +2343,7 @@ const json = `{
     "Inland": 102853,
     "Ausland": 112159
   },
-  "2016ch-gl": {
+  "201608": {
     "Jahr": 2016,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -2351,7 +2351,7 @@ const json = `{
     "Inland": 108668,
     "Ausland": 18965
   },
-  "2016ch-zg": {
+  "201609": {
     "Jahr": 2016,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -2359,7 +2359,7 @@ const json = `{
     "Inland": 123669,
     "Ausland": 166973
   },
-  "2016ch-fr": {
+  "201610": {
     "Jahr": 2016,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -2367,7 +2367,7 @@ const json = `{
     "Inland": 282378,
     "Ausland": 162756
   },
-  "2016ch-so": {
+  "201611": {
     "Jahr": 2016,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -2375,7 +2375,7 @@ const json = `{
     "Inland": 199042,
     "Ausland": 192267
   },
-  "2016ch-bs": {
+  "201612": {
     "Jahr": 2016,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -2383,7 +2383,7 @@ const json = `{
     "Inland": 406196,
     "Ausland": 811481
   },
-  "2016ch-bl": {
+  "201613": {
     "Jahr": 2016,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -2391,7 +2391,7 @@ const json = `{
     "Inland": 139739,
     "Ausland": 142480
   },
-  "2016ch-sh": {
+  "201614": {
     "Jahr": 2016,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -2399,7 +2399,7 @@ const json = `{
     "Inland": 85403,
     "Ausland": 71003
   },
-  "2016ch-ar": {
+  "201615": {
     "Jahr": 2016,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -2407,7 +2407,7 @@ const json = `{
     "Inland": 93452,
     "Ausland": 29738
   },
-  "2016ch-ai": {
+  "201616": {
     "Jahr": 2016,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -2415,7 +2415,7 @@ const json = `{
     "Inland": 133924,
     "Ausland": 22265
   },
-  "2016ch-sg": {
+  "201617": {
     "Jahr": 2016,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -2423,7 +2423,7 @@ const json = `{
     "Inland": 575699,
     "Ausland": 389021
   },
-  "2016ch-gr": {
+  "201618": {
     "Jahr": 2016,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -2431,7 +2431,7 @@ const json = `{
     "Inland": 2830077,
     "Ausland": 1797370
   },
-  "2016ch-ag": {
+  "201619": {
     "Jahr": 2016,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -2439,7 +2439,7 @@ const json = `{
     "Inland": 374722,
     "Ausland": 328062
   },
-  "2016ch-tg": {
+  "201620": {
     "Jahr": 2016,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -2447,7 +2447,7 @@ const json = `{
     "Inland": 276940,
     "Ausland": 140641
   },
-  "2016ch-ti": {
+  "201621": {
     "Jahr": 2016,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -2455,7 +2455,7 @@ const json = `{
     "Inland": 1431358,
     "Ausland": 848981
   },
-  "2016ch-vd": {
+  "201622": {
     "Jahr": 2016,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -2463,7 +2463,7 @@ const json = `{
     "Inland": 1270645,
     "Ausland": 1524922
   },
-  "2016ch-vs": {
+  "201623": {
     "Jahr": 2016,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -2471,7 +2471,7 @@ const json = `{
     "Inland": 2047108,
     "Ausland": 1621264
   },
-  "2016ch-ne": {
+  "201624": {
     "Jahr": 2016,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -2479,7 +2479,7 @@ const json = `{
     "Inland": 126670,
     "Ausland": 101119
   },
-  "2016ch-ge": {
+  "201625": {
     "Jahr": 2016,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -2487,7 +2487,7 @@ const json = `{
     "Inland": 518437,
     "Ausland": 2409758
   },
-  "2016ch-ju": {
+  "201626": {
     "Jahr": 2016,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -2495,7 +2495,7 @@ const json = `{
     "Inland": 87833,
     "Ausland": 18587
   },
-  "2017ch-zh": {
+  "201701": {
     "Jahr": 2017,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -2503,7 +2503,7 @@ const json = `{
     "Inland": 1510431,
     "Ausland": 3875347
   },
-  "2017ch-be": {
+  "201702": {
     "Jahr": 2017,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -2511,7 +2511,7 @@ const json = `{
     "Inland": 2307401,
     "Ausland": 2976676
   },
-  "2017ch-lu": {
+  "201703": {
     "Jahr": 2017,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -2519,7 +2519,7 @@ const json = `{
     "Inland": 685504,
     "Ausland": 1419839
   },
-  "2017ch-ur": {
+  "201704": {
     "Jahr": 2017,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -2527,7 +2527,7 @@ const json = `{
     "Inland": 106722,
     "Ausland": 144172
   },
-  "2017ch-sz": {
+  "201705": {
     "Jahr": 2017,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -2535,7 +2535,7 @@ const json = `{
     "Inland": 362410,
     "Ausland": 172089
   },
-  "2017ch-ow": {
+  "201706": {
     "Jahr": 2017,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -2543,7 +2543,7 @@ const json = `{
     "Inland": 250439,
     "Ausland": 395229
   },
-  "2017ch-ni": {
+  "201707": {
     "Jahr": 2017,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -2551,7 +2551,7 @@ const json = `{
     "Inland": 122884,
     "Ausland": 117774
   },
-  "2017ch-gl": {
+  "201708": {
     "Jahr": 2017,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -2559,7 +2559,7 @@ const json = `{
     "Inland": 114083,
     "Ausland": 17335
   },
-  "2017ch-zg": {
+  "201709": {
     "Jahr": 2017,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -2567,7 +2567,7 @@ const json = `{
     "Inland": 126662,
     "Ausland": 178351
   },
-  "2017ch-fr": {
+  "201710": {
     "Jahr": 2017,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -2575,7 +2575,7 @@ const json = `{
     "Inland": 286575,
     "Ausland": 159882
   },
-  "2017ch-so": {
+  "201711": {
     "Jahr": 2017,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -2583,7 +2583,7 @@ const json = `{
     "Inland": 203564,
     "Ausland": 210080
   },
-  "2017ch-bs": {
+  "201712": {
     "Jahr": 2017,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -2591,7 +2591,7 @@ const json = `{
     "Inland": 424254,
     "Ausland": 903793
   },
-  "2017ch-bl": {
+  "201713": {
     "Jahr": 2017,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -2599,7 +2599,7 @@ const json = `{
     "Inland": 139765,
     "Ausland": 142055
   },
-  "2017ch-sh": {
+  "201714": {
     "Jahr": 2017,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -2607,7 +2607,7 @@ const json = `{
     "Inland": 82960,
     "Ausland": 70063
   },
-  "2017ch-ar": {
+  "201715": {
     "Jahr": 2017,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -2615,7 +2615,7 @@ const json = `{
     "Inland": 92620,
     "Ausland": 27241
   },
-  "2017ch-ai": {
+  "201716": {
     "Jahr": 2017,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -2623,7 +2623,7 @@ const json = `{
     "Inland": 130586,
     "Ausland": 22439
   },
-  "2017ch-sg": {
+  "201717": {
     "Jahr": 2017,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -2631,7 +2631,7 @@ const json = `{
     "Inland": 592035,
     "Ausland": 387129
   },
-  "2017ch-gr": {
+  "201718": {
     "Jahr": 2017,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -2639,7 +2639,7 @@ const json = `{
     "Inland": 2982123,
     "Ausland": 1871236
   },
-  "2017ch-ag": {
+  "201719": {
     "Jahr": 2017,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -2647,7 +2647,7 @@ const json = `{
     "Inland": 385124,
     "Ausland": 330709
   },
-  "2017ch-tg": {
+  "201720": {
     "Jahr": 2017,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -2655,7 +2655,7 @@ const json = `{
     "Inland": 267013,
     "Ausland": 140562
   },
-  "2017ch-ti": {
+  "201721": {
     "Jahr": 2017,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -2663,7 +2663,7 @@ const json = `{
     "Inland": 1565173,
     "Ausland": 889926
   },
-  "2017ch-vd": {
+  "201722": {
     "Jahr": 2017,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -2671,7 +2671,7 @@ const json = `{
     "Inland": 1286689,
     "Ausland": 1602887
   },
-  "2017ch-vs": {
+  "201723": {
     "Jahr": 2017,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -2679,7 +2679,7 @@ const json = `{
     "Inland": 2134867,
     "Ausland": 1788393
   },
-  "2017ch-ne": {
+  "201724": {
     "Jahr": 2017,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -2687,7 +2687,7 @@ const json = `{
     "Inland": 126176,
     "Ausland": 105369
   },
-  "2017ch-ge": {
+  "201725": {
     "Jahr": 2017,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -2695,7 +2695,7 @@ const json = `{
     "Inland": 546593,
     "Ausland": 2507842
   },
-  "2017ch-ju": {
+  "201726": {
     "Jahr": 2017,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -2703,7 +2703,7 @@ const json = `{
     "Inland": 87222,
     "Ausland": 16447
   },
-  "2018ch-zh": {
+  "201801": {
     "Jahr": 2018,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -2711,7 +2711,7 @@ const json = `{
     "Inland": 1654877,
     "Ausland": 4043713
   },
-  "2018ch-be": {
+  "201802": {
     "Jahr": 2018,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -2719,7 +2719,7 @@ const json = `{
     "Inland": 2377069,
     "Ausland": 3172799
   },
-  "2018ch-lu": {
+  "201803": {
     "Jahr": 2018,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -2727,7 +2727,7 @@ const json = `{
     "Inland": 711999,
     "Ausland": 1462804
   },
-  "2018ch-ur": {
+  "201804": {
     "Jahr": 2018,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -2735,7 +2735,7 @@ const json = `{
     "Inland": 110280,
     "Ausland": 145141
   },
-  "2018ch-sz": {
+  "201805": {
     "Jahr": 2018,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -2743,7 +2743,7 @@ const json = `{
     "Inland": 380604,
     "Ausland": 183929
   },
-  "2018ch-ow": {
+  "201806": {
     "Jahr": 2018,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -2751,7 +2751,7 @@ const json = `{
     "Inland": 270782,
     "Ausland": 402516
   },
-  "2018ch-ni": {
+  "201807": {
     "Jahr": 2018,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -2759,7 +2759,7 @@ const json = `{
     "Inland": 156582,
     "Ausland": 171924
   },
-  "2018ch-gl": {
+  "201808": {
     "Jahr": 2018,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -2767,7 +2767,7 @@ const json = `{
     "Inland": 119312,
     "Ausland": 15953
   },
-  "2018ch-zg": {
+  "201809": {
     "Jahr": 2018,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -2775,7 +2775,7 @@ const json = `{
     "Inland": 113650,
     "Ausland": 188546
   },
-  "2018ch-fr": {
+  "201810": {
     "Jahr": 2018,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -2783,7 +2783,7 @@ const json = `{
     "Inland": 278446,
     "Ausland": 165896
   },
-  "2018ch-so": {
+  "201811": {
     "Jahr": 2018,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -2791,7 +2791,7 @@ const json = `{
     "Inland": 220104,
     "Ausland": 211176
   },
-  "2018ch-bs": {
+  "201812": {
     "Jahr": 2018,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -2799,7 +2799,7 @@ const json = `{
     "Inland": 458003,
     "Ausland": 928496
   },
-  "2018ch-bl": {
+  "201813": {
     "Jahr": 2018,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -2807,7 +2807,7 @@ const json = `{
     "Inland": 138312,
     "Ausland": 146578
   },
-  "2018ch-sh": {
+  "201814": {
     "Jahr": 2018,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -2815,7 +2815,7 @@ const json = `{
     "Inland": 82451,
     "Ausland": 72247
   },
-  "2018ch-ar": {
+  "201815": {
     "Jahr": 2018,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -2823,7 +2823,7 @@ const json = `{
     "Inland": 91578,
     "Ausland": 30130
   },
-  "2018ch-ai": {
+  "201816": {
     "Jahr": 2018,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -2831,7 +2831,7 @@ const json = `{
     "Inland": 136344,
     "Ausland": 23170
   },
-  "2018ch-sg": {
+  "201817": {
     "Jahr": 2018,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -2839,7 +2839,7 @@ const json = `{
     "Inland": 594399,
     "Ausland": 389248
   },
-  "2018ch-gr": {
+  "201818": {
     "Jahr": 2018,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -2847,7 +2847,7 @@ const json = `{
     "Inland": 3122451,
     "Ausland": 2009761
   },
-  "2018ch-ag": {
+  "201819": {
     "Jahr": 2018,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -2855,7 +2855,7 @@ const json = `{
     "Inland": 383532,
     "Ausland": 341975
   },
-  "2018ch-tg": {
+  "201820": {
     "Jahr": 2018,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -2863,7 +2863,7 @@ const json = `{
     "Inland": 274170,
     "Ausland": 151517
   },
-  "2018ch-ti": {
+  "201821": {
     "Jahr": 2018,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -2871,7 +2871,7 @@ const json = `{
     "Inland": 1394595,
     "Ausland": 876206
   },
-  "2018ch-vd": {
+  "201822": {
     "Jahr": 2018,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -2879,7 +2879,7 @@ const json = `{
     "Inland": 1301639,
     "Ausland": 1610924
   },
-  "2018ch-vs": {
+  "201823": {
     "Jahr": 2018,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -2887,7 +2887,7 @@ const json = `{
     "Inland": 2207125,
     "Ausland": 1922219
   },
-  "2018ch-ne": {
+  "201824": {
     "Jahr": 2018,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -2895,7 +2895,7 @@ const json = `{
     "Inland": 124611,
     "Ausland": 102227
   },
-  "2018ch-ge": {
+  "201825": {
     "Jahr": 2018,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -2903,7 +2903,7 @@ const json = `{
     "Inland": 625961,
     "Ausland": 2606910
   },
-  "2018ch-ju": {
+  "201826": {
     "Jahr": 2018,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -2911,7 +2911,7 @@ const json = `{
     "Inland": 84165,
     "Ausland": 17731
   },
-  "2019ch-zh": {
+  "201901": {
     "Jahr": 2019,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -2919,7 +2919,7 @@ const json = `{
     "Inland": 1919447,
     "Ausland": 4040698
   },
-  "2019ch-be": {
+  "201902": {
     "Jahr": 2019,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -2927,7 +2927,7 @@ const json = `{
     "Inland": 2375377,
     "Ausland": 3258870
   },
-  "2019ch-lu": {
+  "201903": {
     "Jahr": 2019,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -2935,7 +2935,7 @@ const json = `{
     "Inland": 732163,
     "Ausland": 1485656
   },
-  "2019ch-ur": {
+  "201904": {
     "Jahr": 2019,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -2943,7 +2943,7 @@ const json = `{
     "Inland": 148924,
     "Ausland": 148355
   },
-  "2019ch-sz": {
+  "201905": {
     "Jahr": 2019,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -2951,7 +2951,7 @@ const json = `{
     "Inland": 378187,
     "Ausland": 188662
   },
-  "2019ch-ow": {
+  "201906": {
     "Jahr": 2019,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -2959,7 +2959,7 @@ const json = `{
     "Inland": 264468,
     "Ausland": 374154
   },
-  "2019ch-ni": {
+  "201907": {
     "Jahr": 2019,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -2967,7 +2967,7 @@ const json = `{
     "Inland": 143360,
     "Ausland": 187548
   },
-  "2019ch-gl": {
+  "201908": {
     "Jahr": 2019,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -2975,7 +2975,7 @@ const json = `{
     "Inland": 119407,
     "Ausland": 15551
   },
-  "2019ch-zg": {
+  "201909": {
     "Jahr": 2019,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -2983,7 +2983,7 @@ const json = `{
     "Inland": 111803,
     "Ausland": 166953
   },
-  "2019ch-fr": {
+  "201910": {
     "Jahr": 2019,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -2991,7 +2991,7 @@ const json = `{
     "Inland": 301820,
     "Ausland": 180079
   },
-  "2019ch-so": {
+  "201911": {
     "Jahr": 2019,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -2999,7 +2999,7 @@ const json = `{
     "Inland": 233645,
     "Ausland": 201710
   },
-  "2019ch-bs": {
+  "201912": {
     "Jahr": 2019,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -3007,7 +3007,7 @@ const json = `{
     "Inland": 476800,
     "Ausland": 946681
   },
-  "2019ch-bl": {
+  "201913": {
     "Jahr": 2019,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -3015,7 +3015,7 @@ const json = `{
     "Inland": 147203,
     "Ausland": 135903
   },
-  "2019ch-sh": {
+  "201914": {
     "Jahr": 2019,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -3023,7 +3023,7 @@ const json = `{
     "Inland": 78991,
     "Ausland": 69307
   },
-  "2019ch-ar": {
+  "201915": {
     "Jahr": 2019,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -3031,7 +3031,7 @@ const json = `{
     "Inland": 84375,
     "Ausland": 27428
   },
-  "2019ch-ai": {
+  "201916": {
     "Jahr": 2019,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -3039,7 +3039,7 @@ const json = `{
     "Inland": 135170,
     "Ausland": 25980
   },
-  "2019ch-sg": {
+  "201917": {
     "Jahr": 2019,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -3047,7 +3047,7 @@ const json = `{
     "Inland": 593301,
     "Ausland": 385297
   },
-  "2019ch-gr": {
+  "201918": {
     "Jahr": 2019,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -3055,7 +3055,7 @@ const json = `{
     "Inland": 3208122,
     "Ausland": 2047894
   },
-  "2019ch-ag": {
+  "201919": {
     "Jahr": 2019,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -3063,7 +3063,7 @@ const json = `{
     "Inland": 392307,
     "Ausland": 359056
   },
-  "2019ch-tg": {
+  "201920": {
     "Jahr": 2019,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -3071,7 +3071,7 @@ const json = `{
     "Inland": 260864,
     "Ausland": 142025
   },
-  "2019ch-ti": {
+  "201921": {
     "Jahr": 2019,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -3079,7 +3079,7 @@ const json = `{
     "Inland": 1428731,
     "Ausland": 880787
   },
-  "2019ch-vd": {
+  "201922": {
     "Jahr": 2019,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -3087,7 +3087,7 @@ const json = `{
     "Inland": 1336282,
     "Ausland": 1623074
   },
-  "2019ch-vs": {
+  "201923": {
     "Jahr": 2019,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -3095,7 +3095,7 @@ const json = `{
     "Inland": 2220259,
     "Ausland": 2039691
   },
-  "2019ch-ne": {
+  "201924": {
     "Jahr": 2019,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -3103,7 +3103,7 @@ const json = `{
     "Inland": 122075,
     "Ausland": 107926
   },
-  "2019ch-ge": {
+  "201925": {
     "Jahr": 2019,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -3111,7 +3111,7 @@ const json = `{
     "Inland": 620589,
     "Ausland": 2582385
   },
-  "2019ch-ju": {
+  "201926": {
     "Jahr": 2019,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -3119,7 +3119,7 @@ const json = `{
     "Inland": 88758,
     "Ausland": 17941
   },
-  "2020ch-zh": {
+  "202001": {
     "Jahr": 2020,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -3127,7 +3127,7 @@ const json = `{
     "Inland": 913426,
     "Ausland": 1066774
   },
-  "2020ch-be": {
+  "202002": {
     "Jahr": 2020,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -3135,7 +3135,7 @@ const json = `{
     "Inland": 2488040,
     "Ausland": 951628
   },
-  "2020ch-lu": {
+  "202003": {
     "Jahr": 2020,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -3143,7 +3143,7 @@ const json = `{
     "Inland": 725132,
     "Ausland": 330284
   },
-  "2020ch-ur": {
+  "202004": {
     "Jahr": 2020,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -3151,7 +3151,7 @@ const json = `{
     "Inland": 173972,
     "Ausland": 74447
   },
-  "2020ch-sz": {
+  "202005": {
     "Jahr": 2020,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -3159,7 +3159,7 @@ const json = `{
     "Inland": 343802,
     "Ausland": 60961
   },
-  "2020ch-ow": {
+  "202006": {
     "Jahr": 2020,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -3167,7 +3167,7 @@ const json = `{
     "Inland": 246688,
     "Ausland": 78613
   },
-  "2020ch-ni": {
+  "202007": {
     "Jahr": 2020,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -3175,7 +3175,7 @@ const json = `{
     "Inland": 123502,
     "Ausland": 55051
   },
-  "2020ch-gl": {
+  "202008": {
     "Jahr": 2020,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -3183,7 +3183,7 @@ const json = `{
     "Inland": 99450,
     "Ausland": 8720
   },
-  "2020ch-zg": {
+  "202009": {
     "Jahr": 2020,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -3191,7 +3191,7 @@ const json = `{
     "Inland": 84745,
     "Ausland": 51425
   },
-  "2020ch-fr": {
+  "202010": {
     "Jahr": 2020,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -3199,7 +3199,7 @@ const json = `{
     "Inland": 243758,
     "Ausland": 57566
   },
-  "2020ch-so": {
+  "202011": {
     "Jahr": 2020,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -3207,7 +3207,7 @@ const json = `{
     "Inland": 184628,
     "Ausland": 101068
   },
-  "2020ch-bs": {
+  "202012": {
     "Jahr": 2020,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -3215,7 +3215,7 @@ const json = `{
     "Inland": 279556,
     "Ausland": 266350
   },
-  "2020ch-bl": {
+  "202013": {
     "Jahr": 2020,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -3223,7 +3223,7 @@ const json = `{
     "Inland": 99193,
     "Ausland": 49144
   },
-  "2020ch-sh": {
+  "202014": {
     "Jahr": 2020,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -3231,7 +3231,7 @@ const json = `{
     "Inland": 63993,
     "Ausland": 26154
   },
-  "2020ch-ar": {
+  "202015": {
     "Jahr": 2020,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -3239,7 +3239,7 @@ const json = `{
     "Inland": 83056,
     "Ausland": 13351
   },
-  "2020ch-ai": {
+  "202016": {
     "Jahr": 2020,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -3247,7 +3247,7 @@ const json = `{
     "Inland": 156327,
     "Ausland": 11528
   },
-  "2020ch-sg": {
+  "202017": {
     "Jahr": 2020,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -3255,7 +3255,7 @@ const json = `{
     "Inland": 510337,
     "Ausland": 188154
   },
-  "2020ch-gr": {
+  "202018": {
     "Jahr": 2020,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -3263,7 +3263,7 @@ const json = `{
     "Inland": 3599165,
     "Ausland": 1170805
   },
-  "2020ch-ag": {
+  "202019": {
     "Jahr": 2020,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -3271,7 +3271,7 @@ const json = `{
     "Inland": 271268,
     "Ausland": 139427
   },
-  "2020ch-tg": {
+  "202020": {
     "Jahr": 2020,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -3279,7 +3279,7 @@ const json = `{
     "Inland": 257763,
     "Ausland": 73922
   },
-  "2020ch-ti": {
+  "202021": {
     "Jahr": 2020,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -3287,7 +3287,7 @@ const json = `{
     "Inland": 1566915,
     "Ausland": 366758
   },
-  "2020ch-vd": {
+  "202022": {
     "Jahr": 2020,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -3295,7 +3295,7 @@ const json = `{
     "Inland": 982699,
     "Ausland": 548162
   },
-  "2020ch-vs": {
+  "202023": {
     "Jahr": 2020,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -3303,7 +3303,7 @@ const json = `{
     "Inland": 2297804,
     "Ausland": 929265
   },
-  "2020ch-ne": {
+  "202024": {
     "Jahr": 2020,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -3311,7 +3311,7 @@ const json = `{
     "Inland": 136438,
     "Ausland": 42059
   },
-  "2020ch-ge": {
+  "202025": {
     "Jahr": 2020,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -3319,7 +3319,7 @@ const json = `{
     "Inland": 370941,
     "Ausland": 670947
   },
-  "2020ch-ju": {
+  "202026": {
     "Jahr": 2020,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
@@ -3327,7 +3327,7 @@ const json = `{
     "Inland": 86793,
     "Ausland": 8784
   },
-  "2021ch-zh": {
+  "202101": {
     "Jahr": 2021,
     "Kanton": "Zurich",
     "Kuerzel": "ch-zh",
@@ -3335,7 +3335,7 @@ const json = `{
     "Inland": 1336137,
     "Ausland": 1421971
   },
-  "2021ch-be": {
+  "202102": {
     "Jahr": 2021,
     "Kanton": "Bern",
     "Kuerzel": "ch-be",
@@ -3343,7 +3343,7 @@ const json = `{
     "Inland": 3054152,
     "Ausland": 1052096
   },
-  "2021ch-lu": {
+  "202103": {
     "Jahr": 2021,
     "Kanton": "Lucerne",
     "Kuerzel": "ch-lu",
@@ -3351,7 +3351,7 @@ const json = `{
     "Inland": 929550,
     "Ausland": 443920
   },
-  "2021ch-ur": {
+  "202104": {
     "Jahr": 2021,
     "Kanton": "Uri",
     "Kuerzel": "ch-ur",
@@ -3359,7 +3359,7 @@ const json = `{
     "Inland": 198566,
     "Ausland": 90515
   },
-  "2021ch-sz": {
+  "202105": {
     "Jahr": 2021,
     "Kanton": "Schwyz",
     "Kuerzel": "ch-sz",
@@ -3367,7 +3367,7 @@ const json = `{
     "Inland": 487719,
     "Ausland": 73048
   },
-  "2021ch-ow": {
+  "202106": {
     "Jahr": 2021,
     "Kanton": "Obwalden",
     "Kuerzel": "ch-ow",
@@ -3375,7 +3375,7 @@ const json = `{
     "Inland": 294520,
     "Ausland": 58300
   },
-  "2021ch-ni": {
+  "202107": {
     "Jahr": 2021,
     "Kanton": "Nidwalden",
     "Kuerzel": "ch-ni",
@@ -3383,7 +3383,7 @@ const json = `{
     "Inland": 167175,
     "Ausland": 72466
   },
-  "2021ch-gl": {
+  "202108": {
     "Jahr": 2021,
     "Kanton": "Glarus",
     "Kuerzel": "ch-gl",
@@ -3391,7 +3391,7 @@ const json = `{
     "Inland": 108357,
     "Ausland": 9126
   },
-  "2021ch-zg": {
+  "202109": {
     "Jahr": 2021,
     "Kanton": "Zug",
     "Kuerzel": "ch-zg",
@@ -3399,7 +3399,7 @@ const json = `{
     "Inland": 123033,
     "Ausland": 63966
   },
-  "2021ch-fr": {
+  "202110": {
     "Jahr": 2021,
     "Kanton": "Fribourg",
     "Kuerzel": "ch-fr",
@@ -3407,7 +3407,7 @@ const json = `{
     "Inland": 318605,
     "Ausland": 77924
   },
-  "2021ch-so": {
+  "202111": {
     "Jahr": 2021,
     "Kanton": "Solothurn",
     "Kuerzel": "ch-so",
@@ -3415,7 +3415,7 @@ const json = `{
     "Inland": 232142,
     "Ausland": 123738
   },
-  "2021ch-bs": {
+  "202112": {
     "Jahr": 2021,
     "Kanton": "Basel-Stadt",
     "Kuerzel": "ch-bs",
@@ -3423,7 +3423,7 @@ const json = `{
     "Inland": 402066,
     "Ausland": 382465
   },
-  "2021ch-bl": {
+  "202113": {
     "Jahr": 2021,
     "Kanton": "Basel-Landschaft",
     "Kuerzel": "ch-bl",
@@ -3431,7 +3431,7 @@ const json = `{
     "Inland": 127320,
     "Ausland": 57908
   },
-  "2021ch-sh": {
+  "202114": {
     "Jahr": 2021,
     "Kanton": "Schaffhausen",
     "Kuerzel": "ch-sh",
@@ -3439,7 +3439,7 @@ const json = `{
     "Inland": 87475,
     "Ausland": 28550
   },
-  "2021ch-ar": {
+  "202115": {
     "Jahr": 2021,
     "Kanton": "Appenzell Ausserrhoden",
     "Kuerzel": "ch-ar",
@@ -3447,7 +3447,7 @@ const json = `{
     "Inland": 108219,
     "Ausland": 15577
   },
-  "2021ch-ai": {
+  "202116": {
     "Jahr": 2021,
     "Kanton": "Appenzell Innerrhoden",
     "Kuerzel": "ch-ai",
@@ -3455,7 +3455,7 @@ const json = `{
     "Inland": 173764,
     "Ausland": 14935
   },
-  "2021ch-sg": {
+  "202117": {
     "Jahr": 2021,
     "Kanton": "St. Gallen",
     "Kuerzel": "ch-sg",
@@ -3463,7 +3463,7 @@ const json = `{
     "Inland": 637698,
     "Ausland": 240897
   },
-  "2021ch-gr": {
+  "202118": {
     "Jahr": 2021,
     "Kanton": "Graubünden",
     "Kuerzel": "ch-gr",
@@ -3471,7 +3471,7 @@ const json = `{
     "Inland": 4034883,
     "Ausland": 1118272
   },
-  "2021ch-ag": {
+  "202119": {
     "Jahr": 2021,
     "Kanton": "Aargau",
     "Kuerzel": "ch-ag",
@@ -3479,7 +3479,7 @@ const json = `{
     "Inland": 354695,
     "Ausland": 172064
   },
-  "2021ch-tg": {
+  "202120": {
     "Jahr": 2021,
     "Kanton": "Thurgau",
     "Kuerzel": "ch-tg",
@@ -3487,7 +3487,7 @@ const json = `{
     "Inland": 351214,
     "Ausland": 82630
   },
-  "2021ch-ti": {
+  "202121": {
     "Jahr": 2021,
     "Kanton": "Ticino",
     "Kuerzel": "ch-ti",
@@ -3495,7 +3495,7 @@ const json = `{
     "Inland": 2427411,
     "Ausland": 507034
   },
-  "2021ch-vd": {
+  "202122": {
     "Jahr": 2021,
     "Kanton": "Vaud",
     "Kuerzel": "ch-vd",
@@ -3503,7 +3503,7 @@ const json = `{
     "Inland": 1439713,
     "Ausland": 646129
   },
-  "2021ch-vs": {
+  "202123": {
     "Jahr": 2021,
     "Kanton": "Valais",
     "Kuerzel": "ch-vs",
@@ -3511,7 +3511,7 @@ const json = `{
     "Inland": 2684616,
     "Ausland": 819475
   },
-  "2021ch-ne": {
+  "202124": {
     "Jahr": 2021,
     "Kanton": "Neuchâtel",
     "Kuerzel": "ch-ne",
@@ -3519,7 +3519,7 @@ const json = `{
     "Inland": 194246,
     "Ausland": 64151
   },
-  "2021ch-ge": {
+  "202125": {
     "Jahr": 2021,
     "Kanton": "Geneva",
     "Kuerzel": "ch-ge",
@@ -3527,7 +3527,7 @@ const json = `{
     "Inland": 573465,
     "Ausland": 951284
   },
-  "2021ch-ju": {
+  "202126": {
     "Jahr": 2021,
     "Kanton": "Jura",
     "Kuerzel": "ch-ju",
