@@ -1,4 +1,4 @@
-const json = `{
+let json = {
   "200501": {
     "Jahr": 2005,
     "Kanton": "Zurich",
@@ -3535,4 +3535,4 @@ const json = `{
     "Inland": 113924,
     "Ausland": 9743
   }
-}`
+}

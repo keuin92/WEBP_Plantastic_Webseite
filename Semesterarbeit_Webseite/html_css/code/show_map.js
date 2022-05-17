@@ -35,16 +35,24 @@ async function karteAnzeigen() {
         ['ch-ju', 74796]
     ];
 
+    // Variable für Textgrösse und Farverlaufe
+    let font_size = '13px'
+    let map_color = [
+        [0, '#DCDEFA'],
+        [0.3, '#838AED'],
+        [0.6, '#2A36E0'],
+        [1, '#141D90']
+        ]
     // Create the chart
     Highcharts.mapChart('container_map', {
         chart: {
             map: topology // Welche Karte soll gezeichnet werden? Siehe oben...
         },
 
-        title: {
+         title: {
             text: '',
         },
-        /*
+       /*
         subtitle: {
             text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/ch/ch-all.topo.json">Switzerland</a>'
         },
@@ -57,12 +65,9 @@ async function karteAnzeigen() {
             }
         },*/
 
-        colorAxis: {
+            colorAxis: {
             min: 74796,
-            max: 6239848,
-            minColor: '#00FF00',
-            maxColor: '#001000',
-        },
+            stops: map_color }, 
 
         navigator: {
             enabled: false
@@ -77,8 +82,12 @@ async function karteAnzeigen() {
                 }
             },*/
             dataLabels: {
+                style:{
+                    fontSize: font_size
+                },
                 enabled: true,
-                format: '{point.name}'
+                format: '',
+                
             }
         }]
     });

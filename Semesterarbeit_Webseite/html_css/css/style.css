@@ -17,6 +17,7 @@
     padding: 0 10px;
     height: 100px;
     background-color: whitesmoke;
+    z-index: 5;
 }
 
 .content {
@@ -36,7 +37,7 @@
 .logo {
     line-height: 100px;
     color: #da202c;
-    font-size: 35px;
+    font-size: 25px;
     float: left;
     text-transform: uppercase;
 }
@@ -83,13 +84,6 @@
 /*------------- Navigationsbalken --------------------------------------*/
 
 /*------------- Body ---------------------------------------------------*/
-.body_Home {
-    background-image: url(../bilder/Hintergrund/switzerland_01.jpg);
-    /* Quelle Bild: https://unsplash.com/photos/eAAjKAGEKmI */
-    background-attachment: fixed;
-    min-height: 100%;
-    background-size: cover;
-}
 
 .titel {
     color: whitesmoke;
@@ -98,39 +92,58 @@
     margin-top: 250px;
 }
 
+.untertitel {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+
 .willkommen {
+    z-index: 0;
     color: black;
     font-size: 65px;
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    border-top: 200px;
+    margin-top: 15%;
+    margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
 }
 
+.willkommen_flex-container {
+    background-image: url(../bilder/Hintergrund/switzerland_02.jpeg);
+    /* Quelle Bild: https://unsplash.com/photos/eAAjKAGEKmI */
+    background-attachment: fixed;
+    min-height: 100%;
+    background-size: cover;
+    display: flex;
+    max-width: 100%;
+}
+
+
 .text {
-    width: 97%;
+    width: 95%;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     margin: auto;
     padding-top: 22px;
     padding-bottom: 22px;
+    text-align: justify;
 }
 
-.regionen_flex-container {
+.text_flex-container {
     border-top: 200px;
     margin-top: 50px;
     padding-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 85%;
     height: 100%;
-    /*background-color: rgb(245,245,245,0.7);*/
-    background-color: white;
 }
 
-.regionen_flex-container>a {
+.text_flex-container>a {
     width: 250px;
     height: 250px;
     margin: 25px;
@@ -145,11 +158,8 @@
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 85%;
     height: 870px;
-    /*background-color: rgb(245,245,245,0.7);*/
-    background-color: white;
-
 }
 
 .map {
@@ -161,8 +171,12 @@
     background-color: rgb(245, 245, 245, 0.7);
 }
 
-.highcharts-title {
-    font-size: 500em;
+.highcharts-data-labels.g {
+    font-size: 50px;
+}
+
+.highcharts-axis-labels {
+    font-size: 50px;
 }
 
 .date {
@@ -171,6 +185,7 @@
 
 .radio {
     font-size: 18px;
+    z-index: 1;
 }
 
 .checkbox {
@@ -215,7 +230,7 @@ input[type=range]::-webkit-slider-runnable-track {
     width: 100%;
     height: 4px;
     cursor: pointer;
-    animate: 0.2s;
+    animation: 0.2s;
     background: #0075ff;
     border-radius: 25px;
 }
@@ -246,6 +261,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .range-value span {
+    z-index: 1;
     width: 30px;
     height: 24px;
     line-height: 24px;
@@ -261,6 +277,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .range-value span:before {
+    z-index: 1;
     content: "";
     position: absolute;
     width: 0;
@@ -292,6 +309,11 @@ input[type=range]:focus::-webkit-slider-runnable-track {
     padding: 31px 35px;
     color: #da202c;
 
+}
+
+.a {
+    color: #da202c;
+    text-decoration: underline;
 }
 
 .swiss_made {
