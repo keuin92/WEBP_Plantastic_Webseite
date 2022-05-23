@@ -12,14 +12,14 @@ function updateKarte() {
 
   // Variablen für die Gästeherkunft
   let gaesteherkunft = "";
-  let gaesteherkunft_total= $('#radio_Total').is(':checked')
+  let gaesteherkunft_total = $('#radio_Total').is(':checked')
   let gaesteherkunft_schweiz = $('#radio_Schweiz').is(':checked')
   //let gaesteherkunft_ausland = $('#radio_Ausland').is(':checked')
 
   // if Schlaufe für die Bestimmung welche Gästeherunft gewählt wurde.
-  if (gaesteherkunft_total === true){
+  if (gaesteherkunft_total === true) {
     gaesteherkunft = "Total"
-  } else if (gaesteherkunft_schweiz === true){
+  } else if (gaesteherkunft_schweiz === true) {
     gaesteherkunft = "Inland"
   } else {
     gaesteherkunft = "Ausland"
@@ -30,7 +30,7 @@ function updateKarte() {
   let year = $('#range_year').val();
   let search_str = year.toString() + "01";
   let search_int = parseInt(search_str);
-  let new_table = []; 
+  let new_table = [];
   let table_data = [];
 
   // Schlaufe für den Export der Logiernächte aus der json Datenbank
@@ -52,21 +52,21 @@ function updateKarte() {
     count++
   }
 
-   // Variable für if Schlaufe Anzeige Optionen
-   let show_kantone = $('#checkbox_kantone').is(':checked')
+  // Variable für if Schlaufe Anzeige Optionen
+  let show_kantone = $('#checkbox_kantone').is(':checked')
 
-   // if Schlaufe für die Anzeige Optionen
-   if (show_kantone === true){
-     show_name = '{point.name} '
-   } else {
-     show_name = ''
-   }
+  // if Schlaufe für die Anzeige Optionen
+  if (show_kantone === true) {
+    show_name = '{point.name} '
+  } else {
+    show_name = ''
+  }
 
   // Variable für if Schlaufe Anzeige Optionen
   let show_logiernaechte = $('#checkbox_logiernaechte').is(':checked')
 
   // if Schlaufe für die Anzeige Optionen
-  if (show_logiernaechte === true){
+  if (show_logiernaechte === true) {
     show_value = '{point.value}'
   } else {
     show_value = ''
@@ -74,14 +74,14 @@ function updateKarte() {
 
   // Variable für if Schlaufe Textgrösse
   let font_size = ''
-  let font_size_standard= $('#radio_font-size_standard').is(':checked')
+  let font_size_standard = $('#radio_font-size_standard').is(':checked')
   let font_size_small = $('#radio_font-size_small').is(':checked')
   //let font_size_big = $('#radio_font-size_big').is(':checked')
 
   // if Schlaufe für die Textgrösse.
-  if (font_size_standard === true){
+  if (font_size_standard === true) {
     font_size = "13px"
-  } else if (font_size_small === true){
+  } else if (font_size_small === true) {
     font_size = "10px"
   } else {
     font_size = "16px"
@@ -89,29 +89,36 @@ function updateKarte() {
   //console.log("Textgrösse: "+font_size)
 
 
-   // Variable für if Schlaufe Textgrösse
-   let map_color = ''
-   let map_color_blue= $('#radio_map_color_blue').is(':checked')
-   console.log(map_color_blue)
-   //let map_color_green = $('#radio_font-size_small').is(':checked')
- 
-   // if Schlaufe für die Textgrösse.
-   if (map_color_blue === true){
-     map_color = [
+  // Variable für if Schlaufe Textgrösse
+  let map_color = ''
+  let map_color_blue = $('#radio_map_color_blue').is(':checked')
+  let map_color_green = $('#radio_map_color_green').is(':checked')
+  //let map_color_red = $('#radio_map_color_red').is(':checked')
+
+  // if Schlaufe für die Textgrösse.
+  if (map_color_blue === true) {
+    map_color = [
       [0, '#DCDEFA'],
       [0.3, '#838AED'],
       [0.6, '#2A36E0'],
       [1, '#141D90']
     ]
-   } else {
-     map_color = [
+  } else if (map_color_green === true) {
+    map_color = [
       [0, '#BDECB6'],
       [0.3, '#49B675'],
       [0.6, '#008800'],
       [1, '#0F4336']
-      ]
-   }
-   console.log("Kartenfarbe: "+map_color)
+    ]
+  } else {
+    map_color = [
+      [0, '#FF6961'],
+      [0.3, '#FF0000'],
+      [0.6, '#C4151C'],
+      [1, '#AB2524']
+    ]
+  }
+  //console.log("Kartenfarbe: "+map_color)
 
   karteAnzeigen()
 
@@ -144,18 +151,17 @@ function updateKarte() {
           }
       },*/
 
-        colorAxis: {
+      colorAxis: {
         min: 74796,
-        stops: map_color },
-      
+        stops: map_color
+      },
+
       navigator: {
         enabled: false
       },
 
       series: [{
         data: data,
-        /* keys: ['code_hasc', 'value'],
-        joinBy: 'code_hasc', */
         name: 'Logiernächte',
         /*states: {
             hover: {
@@ -163,11 +169,11 @@ function updateKarte() {
             }
         },*/
         dataLabels: {
-          style:{
+          style: {
             fontSize: font_size
-        },
+          },
           enabled: true,
-          format: ''+ show_name + show_value
+          format: '' + show_name + show_value
         }
       }]
     });
@@ -408,5 +414,11 @@ $('#radio_map_color_blue').change(function () {
 $('#radio_map_color_green').change(function () {
   let radio_map_color_green = $('#radio_map_color_green').is(':checked')
   console.log("radio_map_color_green " + radio_map_color_green)
+  updateKarte()
+})
+
+$('#radio_map_color_red').change(function () {
+  let radio_map_color_red = $('#radio_map_color_red').is(':checked')
+  console.log("radio_map_color_red " + radio_map_color_red)
   updateKarte()
 })
