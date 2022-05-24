@@ -25,18 +25,6 @@ async function karteAnzeigen(data) {
         title: {
             text: '',
         },
-        /*
-         subtitle: {
-             text: 'Source map: <a href="http://code.highcharts.com/mapdata/countries/ch/ch-all.topo.json">Switzerland</a>'
-         },
-         */
-
-        /*mapNavigation: {
-            enabled: true,
-            buttonOptions: {
-                verticalAlign: 'bottom'
-            }
-        },*/
 
         colorAxis: {
             min: 74796,

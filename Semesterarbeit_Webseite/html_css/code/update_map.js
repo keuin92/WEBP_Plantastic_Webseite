@@ -1,3 +1,4 @@
+//Deafult Variablen für Darstellung der Karte
 let selected_color = "blue"
 let selected_font_size = "standard"
 
