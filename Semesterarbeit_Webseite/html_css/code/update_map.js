@@ -1,4 +1,4 @@
-//Deafult Variablen für Darstellung der Karte
+//Deafult globale Variablen für Darstellung der Karte
 let selected_color = "blue"
 let selected_font_size = "standard"
 
@@ -56,7 +56,7 @@ function updateKarte() {
       [0, '#FF6961'],
       [0.3, '#FF0000'],
       [0.6, '#C4151C'],
-      [1, '#AB2524']
+      [1, '#880000']
     ]
   }
 

@@ -1,4 +1,4 @@
-// Variable für das erzeugen der Karte
+// Default globale Variable für das erzeugen der Karte
 var karte;
 
 async function karteAnzeigen(data) {

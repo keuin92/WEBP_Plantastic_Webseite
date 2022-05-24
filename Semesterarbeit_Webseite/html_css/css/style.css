@@ -158,7 +158,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 85%;
-    height: 870px;
+    height: 600px;
 }
 
 .map {
@@ -166,7 +166,7 @@
     border-top: 200px;
     margin-top: 50px;
     width: 80%;
-    height: 870px;
+    height: 600px;
     background-color: rgb(245, 245, 245, 0.7);
 }
 
@@ -192,7 +192,7 @@
 }
 
 .filter {
-    margin-top: -870px;
+    margin-top: -620px;
     margin-left: auto;
     margin-right: 10px;
     width: 18%;
