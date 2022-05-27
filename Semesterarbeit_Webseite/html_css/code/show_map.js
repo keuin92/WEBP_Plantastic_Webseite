@@ -43,7 +43,7 @@ async function karteAnzeigen(data) {
                     fontSize: font_size
                 },
                 enabled: true,
-                format: '',
+                format: ''
 
             }
         }]
