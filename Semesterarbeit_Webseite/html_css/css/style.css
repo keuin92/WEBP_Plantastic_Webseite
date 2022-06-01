@@ -158,7 +158,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 85%;
-    height: 600px;
+    height: 650px;
 }
 
 .map {
@@ -166,7 +166,7 @@
     border-top: 200px;
     margin-top: 50px;
     width: 80%;
-    height: 600px;
+    height: 650px;
     background-color: rgb(245, 245, 245, 0.7);
 }
 
@@ -192,20 +192,20 @@
 }
 
 .filter {
-    margin-top: -620px;
+    margin-top: -670px;
     margin-left: auto;
     margin-right: 10px;
     width: 18%;
-    height: 800px;
+    height: 670px;
     /*background-color: rgb(245,245,245,0.7);*/
     background-color: white;
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #0075ff;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

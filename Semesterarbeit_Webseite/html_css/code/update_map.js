@@ -81,7 +81,23 @@ function updateKarte() {
   karte.redraw(false)
 
 }
-// Funktion für den Filter Jahr
+
+// Funktion für das Zurücksetzen der Filter
+
+function resetFilter() {
+  // Anpassung der Filter im HTML auf die Standard auswahl
+
+  document.getElementById('total_origin').checked = true;
+  document.getElementById('font-size_standard').checked = true;
+  document.getElementById('map_color_blue').checked = true;
+  document.getElementById('checkbox_kantone').checked = false;
+  document.getElementById('checkbox_logiernaechte').checked = false;
+  document.getElementById('range_year').value = "2005";
+  setValue() // Für die Animation des Jahr Reglers
+  selected_color = "blue"
+  selected_font_size = "standard"
+}
+
 
 $('#range_year').change(function () {
   let range_year = $('#range_year').val();
@@ -122,4 +138,11 @@ $('#font_size').change(function () {
 $('#select_color').change(function () {
   selected_color = $("#select_color :radio:checked").val()
   updateKarte()
+})
+
+// Funktion für Den Button "Filter zurücksetzen"
+
+$('#reset_button').click(function () {
+  karteAnzeigen(getDaten())
+  resetFilter()
 })

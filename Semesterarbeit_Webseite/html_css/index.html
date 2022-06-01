@@ -107,11 +107,11 @@
             </div>
             <div class="radio" id="guest_origin">
                 <h3>Gästeherkunft</h3>
-                <input type="radio" name="radio_herkunft" value="total" checked><label>
+                <input type="radio" name="radio_origin" id="total_origin" value="total" checked><label>
                     Total</label><br>
-                <input type="radio" name="radio_herkunft" value="switzerland"><label>
+                <input type="radio" name="radio_origin" value="switzerland"><label>
                     Schweiz</label><br>
-                <input type="radio" name="radio_herkunft" value="foreign"><label>
+                <input type="radio" name="radio_origin" value="foreign"><label>
                     Ausland</label><br>
             </div>
             <br>
@@ -125,7 +125,7 @@
             <br>
             <div class="radio" id="font_size">
                 <h3>Textgrösse</h3>
-                <input type="radio" name="radio_font-size" value="standard" checked><label>
+                <input type="radio" name="radio_font-size" value="standard" id="font-size_standard" checked><label>
                     Standard</label><br>
                 <input type="radio" name="radio_font-size" value="small"><label> Klein</label><br>
                 <input type="radio" name="radio_font-size" value="big"><label> Gross</label><br>
@@ -133,11 +133,15 @@
             <br>
             <div class="radio" id="select_color">
                 <h3>Farbdesign</h3>
-                <input type="radio" name="radio_map_color" value="blue" checked><label>
+                <input type="radio" name="radio_map_color" value="blue" id="map_color_blue" checked><label>
                     Blau</label><br>
                 <input type="radio" name="radio_map_color" value="green"><label>
                     Grün</label><br>
                 <input type="radio" name="radio_map_color" value="red"><label> Rot</label><br>
+            </div>
+            <br>
+            <div class="radio" id="button">
+                <button class="button" type="button" id="reset_button">Filter zurücksetzen</button>
             </div>
         </div>
     </div>
@@ -179,7 +183,7 @@
         </div>
         <div class="swiss_made">
             <p>SWISS MADE</p>
-            <P>BY ALEXA, IGOR, JETLIRA, KEVIN</P>
+            <P>BY ALEXA, KEVIN, IGOR, JETLIRA</P>
         </div>
     </div>
 </body>
