@@ -96,6 +96,7 @@ function resetFilter() {
   setValue() // Für die Animation des Jahr Reglers
   selected_color = "blue"
   selected_font_size = "standard"
+
 }
 
 
@@ -143,6 +144,6 @@ $('#select_color').change(function () {
 // Funktion für Den Button "Filter zurücksetzen"
 
 $('#reset_button').click(function () {
-  karteAnzeigen(getDaten())
   resetFilter()
+  karteAnzeigen(getDaten())
 })
